@@ -12,13 +12,13 @@
 	"menu_frenzy" : "FURY & TRANQUILITY"
 	"menu_frenzy_desc" : "BASIC : ##$basic##\nYour maximum health is capped at ##70%##. You cannot heal above ##70%## health. However, you receive ##15%## multiplicative damage reduction.\n\nACE: ##$pro##\nYour maximum health is now capped at ##15%##. You cannot heal above ##15%## health. Your damage reduction is increased to ##35%##."
 	
-	"menu_prison_wife_beta_desc" : "BASIC: ##$basic##\nRegenerate ##15## armor every headshot. This has a ##2## second cooldown.\n\nACE: ##$pro##\n You regenerate an additional ##25## armor every headshot."
+	"menu_prison_wife_beta_desc" : "BASIC: ##$basic##\nYou regenerate ##15## armor every headshot. This has a ##2## second cooldown.\n\nACE: ##$pro##\nYou regenerate an additional ##25## armor every headshot."
 	
 	"menu_oppressor_beta_desc" : "BASIC: ##$basic##\nYour armor recovery rate is increased by ##15%##.\n\nACE: ##$pro##\nDamage done to your armor is reduced by ##15%##."
 	"menu_iron_man_beta" : "OVERWHELM"
 	"menu_iron_man_beta_desc" : "BASIC: ##$basic##\nIncreases armor recovery rate for you and your crew by ##25%##. Damage done to your armor is reduced by ##15%##.\n\nACE: ##$pro##\nYour weapons are now capable of staggering shields when attacking them. Ranged weapons have higher chances of staggering dependent on damage, whilst melee has a ##100%## of staggering regardless of damage.\n\nNOTE: Armor recovery rates given by OVERWHELM only apply once to an entire team. Having multiple people with OVERWHELM on your team does not increase its effect."
 	"menu_juggernaut_beta" : "JUGGERNAUGHT"
-	"menu_juggernaut_beta_desc" : "BASIC: ##$basic##\nYour total armor value is increased by 30%.\n\nACE: ##$pro##\nUnlocks the ICTV for use. Alongside this, damage done to your armor is reduced by ##20%##."
+	"menu_juggernaut_beta_desc" : "BASIC: ##$basic##\nYour total armor value is increased by ##30%##.\n\nACE: ##$pro##\nUnlocks the ICTV for use. Alongside this, damage done to your armor is reduced by ##20%##."
 	
 	"menu_gun_fighter_beta_desc" : "BASIC: ##$basic##\nYour pistols do ##15## more damage.\n\nACE: ##$pro##\nYour pistols do an additional ##25## more damage."
 }
