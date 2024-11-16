@@ -1,6 +1,5 @@
-log("just to check")
-
 Hooks:PostHook(PlayerManager, "damage_reduction_skill_multiplier", "adding_more_DR_methods", function(self, damage_type)
+    log("just to check")
 
     local multiplier = 1
 
