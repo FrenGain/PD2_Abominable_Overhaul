@@ -24,31 +24,31 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
 	}
 
 
-    --Also for armor DR ig?
+    --Also for armor DR
     self.definitions.player_armor_damage_reduction_1 = {
-        name_id = "player_armor_damage_reduction_1",
+        name_id = "armor_damage_reduction_1",
         category = "feature",
         upgrade = {
             value = 1,
-            upgrade = "armor_damage_reduction",
+            upgrade = "armor_damage_reduction_1",
             category = "player"
         }
     }
     self.definitions.player_armor_damage_reduction_2 = {
-        name_id = "player_armor_damage_reduction_2",
+        name_id = "armor_damage_reduction_2",
         category = "feature",
         upgrade = {
           value = 2,
-          upgrade = "armor_damage_reduction",
+          upgrade = "armor_damage_reduction_2",
           category = "player"
         }
     }
     self.definitions.player_armor_damage_reduction_3 = {
-        name_id = "player_armor_damage_reduction_3",
+        name_id = "armor_damage_reduction_3",
         category = "feature",
         upgrade = {
             value = 3,
-            upgrade = "armor_damage_reduction",
+            upgrade = "armor_damage_reduction_3",
             category = "player"
         }
     }
