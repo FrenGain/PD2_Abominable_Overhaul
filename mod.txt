@@ -3,21 +3,22 @@
 	"author" : "FrenGain",
 	"blt_version" : 2,	
 	"color" : "1 1 1",
-	"version" : "0.1.0",
+	"version" : "0.1.1",
 	"hooks" : [
 		{ "hook_id" : "lib/tweak_data/weapontweakdata", 					"script_path" : "LuaStuff/Weapons.lua" 					},
 		{ "hook_id" : "lib/tweak_data/weaponfactorytweakdata", 				"script_path" : "LuaStuff/Attachments.lua" 				},
 		{ "hook_id" : "lib/tweak_data/blackmarket/meleeweaponstweakdata", 	"script_path" : "LuaStuff/Melees.lua" 					},
 		{ "hook_id" : "lib/tweak_data/upgradestweakdata",					"script_path" : "LuaStuff/UpgradesTweakData.lua"		},
 		{ "hook_id" : "lib/tweak_data/skilltreetweakdata",  				"script_path" : "LuaStuff/SkillTreeTweakData.lua" 		},
-		{ "hook_id" : "lib/managers/localizationmanager", 					"script_path" : "LuaStuff/loc_mgr.lua" 					}
+		{ "hook_id" : "lib/managers/localizationmanager", 					"script_path" : "LuaStuff/loc_mgr.lua" 					},
+		{ "hook_id" : "lib/managers/playermanager", 						"script_path" : "LuaStuff/PlayerManager.lua"			}
 		],
 		
 	"updates" : [
 		{
 				"identifier" : "theabominable",
 				"host" : {
-						"meta" : "https://github.com/FrenGain/PD2_Abominable_Overhaul/blob/main/theabominable.json"
+						"meta" : "https://raw.githubusercontent.com/FrenGain/PD2_Abominable_Overhaul/refs/heads/main/theabominable.json"
 				}
 		}
 		]

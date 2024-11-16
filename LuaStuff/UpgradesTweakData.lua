@@ -11,6 +11,8 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         }
     }
 
+
+    --This is for higher health reduct on Frenzy Aced
     self.definitions.player_max_health_reduction_2 = {
 		name_id = "menu_player_max_health_reduction_2",
 		category = "feature",
@@ -20,6 +22,36 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
 			category = "player"
 		}
 	}
+
+
+    --Also for armor DR ig?
+    self.definitions.player_armor_damage_reduction_1 = {
+        name_id = "player_armor_damage_reduction_1",
+        category = "feature",
+        upgrade = {
+            value = 1,
+            upgrade = "armor_damage_reduction",
+            category = "player"
+        }
+    }
+    self.definitions.player_armor_damage_reduction_2 = {
+        name_id = "player_armor_damage_reduction_2",
+        category = "feature",
+        upgrade = {
+          value = 2,
+          upgrade = "armor_damage_reduction",
+          category = "player"
+        }
+    }
+    self.definitions.player_armor_damage_reduction_3 = {
+        name_id = "player_armor_damage_reduction_3",
+        category = "feature",
+        upgrade = {
+            value = 3,
+            upgrade = "armor_damage_reduction",
+            category = "player"
+        }
+    }
 
 end)
 
@@ -35,6 +67,7 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
         1.35,
         1.75
     }
+
 
         --Drill stuff
 
@@ -74,5 +107,33 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
 		0.7,
         0.15
 	}
+
+
+        --For new armor DR, probably(still figuring it out)
+
+    self.values.player.armor_damage_reduction_1 = {
+        0.85
+    }
+    self.values.player.armor_damage_reduction_2 = {
+        0.85
+    }
+    self.values.player.armor_damage_reduction_3 = {
+        0.80
+    }
+
+
+        --Bullseye armor regen
+
+    self.values.player.headshot_regen_armor_bonus = {
+		1.5,
+		4
+	}
+
+
+        --One Handed Talent buffs
+    self.values.pistol.damage_addend = {
+        1.5,
+        4
+    }
 
 end)
