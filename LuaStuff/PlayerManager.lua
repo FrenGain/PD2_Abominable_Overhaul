@@ -13,5 +13,4 @@ Hooks:PostHook(PlayerManager, "damage_reduction_skill_multiplier", "adding_more_
     end
 end
 
-log("just to check")
 end)

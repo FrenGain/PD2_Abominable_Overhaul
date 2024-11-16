@@ -26,7 +26,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
 
     --Also for armor DR
     self.definitions.player_armor_damage_reduction_1 = {
-        name_id = "armor_damage_reduction_1",
+        name_id = "armor_based_damage_reduction_1",
         category = "feature",
         upgrade = {
             value = 1,
@@ -35,7 +35,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         }
     }
     self.definitions.player_armor_damage_reduction_2 = {
-        name_id = "armor_damage_reduction_2",
+        name_id = "armor_based_damage_reduction_2",
         category = "feature",
         upgrade = {
           value = 2,
@@ -44,7 +44,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         }
     }
     self.definitions.player_armor_damage_reduction_3 = {
-        name_id = "armor_damage_reduction_3",
+        name_id = "armor_based_damage_reduction_3",
         category = "feature",
         upgrade = {
             value = 3,
