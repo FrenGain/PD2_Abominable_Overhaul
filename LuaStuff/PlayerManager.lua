@@ -13,4 +13,6 @@ Hooks:PostHook(PlayerManager, "damage_reduction_skill_multiplier", "adding_more_
     end
 end
 
+    return Hooks:GetReturn() * multiplier
+
 end)
