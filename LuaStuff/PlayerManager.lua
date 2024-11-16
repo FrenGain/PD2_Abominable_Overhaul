@@ -1,8 +1,9 @@
+log("just to check")
+
 Hooks:PostHook(PlayerManager, "damage_reduction_skill_multiplier", "adding_more_DR_methods", function(self, damage_type)
 
     local multiplier = 1
 
-    log("just to check")
     local player_unit = self:player_unit()
     if alive(player_unit) then
         local dmg_ext = player_unit:character_damage()
