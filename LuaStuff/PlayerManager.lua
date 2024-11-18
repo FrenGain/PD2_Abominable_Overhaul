@@ -4,7 +4,7 @@ Hooks:PostHook(PlayerManager, "damage_reduction_skill_multiplier", "adding_more_
     local multiplier = 1
 
     --Making the headshot DR values matter in DR calcs(Working on VFX, will fix after)
-    multiplier = multiplier * self:get_temporary_property("headshot_damage_reduction_effect", 1)
+    multiplier = multiplier * self:get_temporary_property("player", "headshot_damage_reduction_effect", 1)
 
     --Checking for armor, and if player has armor, apply DR
     local player_unit = self:player_unit()
@@ -28,7 +28,7 @@ Hooks:PostHook(PlayerManager, "on_headshot_dealt", "temporary_buffs_on_headshot"
     --Checking if you have the pre-requisite upgrades, and then activating the headshot DR values for four seconds
     local amount = self:upgrade_value("player", "headshot_damage_reduction_bonus", 0)
     if amount > 0 then
-        self:activate_temporary_property("headshot_damage_reduction_effect", 4, 1)
+        self:activate_temporary_property("player", "headshot_damage_reduction_effect", 4, 1)
 
         local eff_mgr = World:effect_manager() -- keep a "shortcut" to this for performance reasons, since we're going to perform a few operations with it
         local funny_zappy_stuff_gen
