@@ -11,7 +11,8 @@
 		{ "hook_id" : "lib/tweak_data/upgradestweakdata",					"script_path" : "LuaStuff/UpgradesTweakData.lua"		},
 		{ "hook_id" : "lib/tweak_data/skilltreetweakdata",  				"script_path" : "LuaStuff/SkillTreeTweakData.lua" 		},
 		{ "hook_id" : "lib/managers/localizationmanager", 					"script_path" : "LuaStuff/loc_mgr.lua" 					},
-		{ "hook_id" : "lib/managers/playermanager", 						"script_path" : "LuaStuff/PlayerManager.lua"			}
+		{ "hook_id" : "lib/managers/playermanager", 						"script_path" : "LuaStuff/PlayerManager.lua"			},
+		{ "hook_id" : "lib/units/weapons/raycastweaponbase",				"script_path" : "LuaStuff/RaycastWeaponBase.lua"		}
 		],
 		
 	"updates" : [

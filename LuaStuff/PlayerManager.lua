@@ -50,7 +50,4 @@ Hooks:PostHook(PlayerManager, "on_headshot_dealt", "temporary_buffs_on_headshot"
         
     end
 
-    --Having crashes on line 1870 before, this helped previously so maybe?
-    return Hooks:GetReturn() * multiplier
-
 end)
