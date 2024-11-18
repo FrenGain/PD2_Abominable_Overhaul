@@ -55,22 +55,55 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
 
 
     --Stuff for Bullseye DR
-    self.definitions.player_headshot_DR_bonus_1 = {
-        name_id = "headshot_DR",
+    self.definitions.player_headshot_damage_reduction_bonus_1 = {
+        name_id = "headshot_damage_reduction_1",
         category = "feature",
         upgrade = {
             value = 1,
-            upgrade = "headshot_DR_bonus",
+            upgrade = "headshot_damage_reduction",
             category = "player"
         }
     }
-    self.definitions.player_headshot_DR_bonus_2 = {
-        name_id = "headshot_DR",
+    self.definitions.player_headshot_damage_reduction_bonus_2 = {
+        name_id = "headshot_damage_reduction_2",
         category = "feature",
         upgrade = {
             value = 2,
-            upgrade = "headshot_DR_bonus",
+            upgrade = "headshot_damage_reduction",
             category = "player"
+        }
+    }
+
+
+    --Heavy Impact stuff
+    self.definitions.weapon_heavy_impact_damage_multiplier_1 = {
+        name_id = "heavy_impact_damage_multiplier_1",
+        category = "feature",
+        upgrade = {
+            value = 1,
+            upgrade = "heavy_impact_damage_multiplier",
+            category = "weapon"
+        }
+    }
+    self.definitions.weapon_heavy_impact_damage_multiplier_2 = {
+        name_id = "heavy_impact_damage_multiplier_2",
+        category = "feature",
+        upgrade = {
+            value = 2,
+            upgrade = "heavy_impact_damage_multiplier",
+            category = "weapon"
+        }
+    }
+
+
+    --Lock n' Load Basic stuff
+    self.definitions.weapon_passive_reload_speed_multiplier_custom_1 = {
+        name_id = "passive_reload_speed_modifier_custom_1",
+        category = "feature",
+        upgrade = {
+            value = 1,
+            upgrade = "passive_reload_speed_multiplier_custom_1",
+            category = "weapon"
         }
     }
 
@@ -136,10 +169,10 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
         0.85
     }
     self.values.player.armor_damage_reduction_2 = {
-        0.85
+        0.90
     }
     self.values.player.armor_damage_reduction_3 = {
-        0.80
+        0.75
     }
 
 
@@ -149,16 +182,36 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
 		1.5,
 		4
 	}
-    self.values.player.headshot_DR_bonus = {
+    self.values.player.headshot_damage_reduction_bonus = {
         0.85,
         0.75
     }
 
 
         --One Handed Talent buffs
+
     self.values.pistol.damage_addend = {
         1.5,
         4
+    }
+
+
+        --Heavy Impact stuff
+
+    self.values.weapon.heavy_impact_damage_multiplier ={
+        1.10,
+        1.20
+    }
+    self.values.weapon.knock_down = {
+		0.30,
+		0.65
+	}
+
+
+        -- Lock n' Load Basic Stuff
+
+    self.values.weapon.passive_reload_speed_multiplier_custom_1 = {
+        1.25
     }
 
 end)
