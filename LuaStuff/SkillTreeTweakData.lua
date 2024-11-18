@@ -17,4 +17,10 @@ Hooks:PostHook(SkillTreeTweakData, "init", "rebalance_skill_additions", function
     table.insert(self.skills.iron_man[1].upgrades, "player_armor_damage_reduction_2") --Adding armor DR to Shock and Awe Basic, likely to be renamed "Overwhelm".
     table.insert(self.skills.juggernaut[2].upgrades, "player_armor_damage_reduction_3") --Giving Iron Man Aced armor DR. Skill will be renamed to Juggernaught.
 
+
+    --Headshot temp DR effect tied to Bullseye
+    
+    table.insert(self.skills.prison_wife[1].upgrades, "player_headshot_DR_bonus_1")
+    table.insert(self.skills.prison_wife[2].upgrades, "player_headshot_DR_bonus_2")
+
 end) 

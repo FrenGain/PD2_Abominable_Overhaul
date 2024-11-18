@@ -12,7 +12,7 @@
 	"menu_frenzy" : "FURY & TRANQUILITY"
 	"menu_frenzy_desc" : "BASIC : ##$basic##\nYour maximum health is capped at ##70%##. You cannot heal above ##70%## health. However, you receive ##15%## multiplicative damage reduction.\n\nACE: ##$pro##\nYour maximum health is now capped at ##15%##. You cannot heal above ##15%## health. Your damage reduction is increased to ##35%##."
 	
-	"menu_prison_wife_beta_desc" : "BASIC: ##$basic##\nYou regenerate ##15## armor every headshot. This has a ##2## second cooldown.\n\nACE: ##$pro##\nYou regenerate an additional ##25## armor every headshot."
+	"menu_prison_wife_beta_desc" : "BASIC: ##$basic##\nYou regenerate ##15## armor every headshot. This has a ##2## second cooldown. On headshot, you gain ##15%## damage reduction. This effect has a ##4## second duration.\n\nACE: ##$pro##\nYou regenerate an additional ##25## armor every headshot. Gain an additional ##10%## damage reduction on headshots."
 	
 	"menu_oppressor_beta_desc" : "BASIC: ##$basic##\nYour armor recovery rate is increased by ##15%##.\n\nACE: ##$pro##\nDamage done to your armor is reduced by ##15%##."
 	"menu_iron_man_beta" : "OVERWHELM"

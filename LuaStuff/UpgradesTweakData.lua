@@ -53,6 +53,27 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         }
     }
 
+
+    --Stuff for Bullseye DR
+    self.definitions.player_headshot_DR_bonus_1 = {
+        name_id = "headshot_DR",
+        category = "feature",
+        upgrade = {
+            value = 1,
+            upgrade = "headshot_DR_bonus",
+            category = "player"
+        }
+    }
+    self.definitions.player_headshot_DR_bonus_2 = {
+        name_id = "headshot_DR",
+        category = "feature",
+        upgrade = {
+            value = 2,
+            upgrade = "headshot_DR_bonus",
+            category = "player"
+        }
+    }
+
 end)
 
 Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", function(self)
@@ -122,12 +143,16 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
     }
 
 
-        --Bullseye armor regen
+        --Bullseye armor regen/DR
 
     self.values.player.headshot_regen_armor_bonus = {
 		1.5,
 		4
 	}
+    self.values.player.headshot_DR_bonus = {
+        0.85,
+        0.75
+    }
 
 
         --One Handed Talent buffs
