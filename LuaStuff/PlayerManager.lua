@@ -39,7 +39,7 @@ Hooks:PostHook(PlayerManager, "on_headshot_dealt", "temporary_buffs_on_headshot"
             -- spawn our new effect
             funny_zappy_stuff_gen = eff_mgr:spawn({
                 effect = Idstring("effects/payday2/particles/character/taser_hittarget"),
-                parent = self:player_unit():camera()._unit:get_object(Idstring("LeftForeArmRoll")),
+                parent = self:player_unit():camera()._unit:get_object(Idstring("LeftHand")),
             })
             -- store the new effect id so that we can set its duration
             self.funny_zappy_stuff_1 = funny_zappy_stuff_gen
