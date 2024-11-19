@@ -210,7 +210,7 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
 
         -- Lock n' Load Basic Stuff
 
-    self.values.weapon.passive_reload_speed_multiplier_custom = {
+    self.values.weapon.reload_speed_multiplier_custom = {
         1.25
     }
 

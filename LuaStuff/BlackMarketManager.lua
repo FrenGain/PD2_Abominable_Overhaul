@@ -4,7 +4,7 @@ Hooks:PostHook(BlackMarketManager, "reload_speed_multiplier", "more_reload_speed
     local multiplier = 1
 
     --Putting the new reload speed modifs in the actual code to check for
-    multiplier = multiplier + 1 - managers.player:upgrade_value("weapon", "passive_reload_speed_multiplier_custom", 1)
+    multiplier = multiplier + 1 - managers.player:upgrade_value("weapon", "reload_speed_multiplier_custom", 1)
 
     --Actually making the modif check mean something
     return Hooks:GetReturn() * multiplier
