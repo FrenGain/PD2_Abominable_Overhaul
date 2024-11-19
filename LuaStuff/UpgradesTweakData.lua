@@ -214,4 +214,12 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
         1.25
     }
 
+
+        --Body Expertise Basic Stuff
+    
+    self.values.weapon.automatic_head_shot_add = {
+        0.55,
+        0.90
+    }
+
 end)
