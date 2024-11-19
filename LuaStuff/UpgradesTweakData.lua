@@ -77,7 +77,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
 
     --Heavy Impact stuff
     self.definitions.weapon_heavy_impact_damage_multiplier_1 = {
-        name_id = "heavy_impact_damage_multiplier_1",
+        name_id = "heavy_impact_damage_modifier_1",
         category = "feature",
         upgrade = {
             value = 1,
@@ -86,7 +86,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         }
     }
     self.definitions.weapon_heavy_impact_damage_multiplier_2 = {
-        name_id = "heavy_impact_damage_multiplier_2",
+        name_id = "heavy_impact_damage_modifier_2",
         category = "feature",
         upgrade = {
             value = 2,
