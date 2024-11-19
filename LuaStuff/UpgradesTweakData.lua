@@ -97,12 +97,12 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
 
 
     --Lock n' Load Basic stuff
-    self.definitions.weapon_reload_speed_multiplier_custom_1 = {
-        name_id = "reload_speed_modifier_custom_1",
+    self.definitions.weapon_reload_speed_multiplier_locky_load_1 = {
+        name_id = "reload_speed_modifier_locky_load_1",
         category = "feature",
         upgrade = {
             value = 1,
-            upgrade = "reload_speed_multiplier_custom",
+            upgrade = "reload_speed_multiplier_locky_load",
             category = "weapon"
         }
     }
@@ -210,7 +210,7 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
 
         -- Lock n' Load Basic Stuff
 
-    self.values.weapon.reload_speed_multiplier_custom = {
+    self.values.weapon.reload_speed_multiplier_locky_load = {
         1.15
     }
 
