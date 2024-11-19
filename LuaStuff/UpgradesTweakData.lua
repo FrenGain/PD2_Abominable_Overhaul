@@ -97,8 +97,8 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
 
 
     --Lock n' Load Basic stuff
-    self.definitions.weapon_reload_speed_multiplier_locky_load_1 = {
-        name_id = "reload_speed_modifier_locky_load_1",
+    self.definitions.weapon_reload_speed_multiplier_locky_load = {
+        name_id = "reload_speed_modifier_locky_load",
         category = "feature",
         upgrade = {
             value = 1,

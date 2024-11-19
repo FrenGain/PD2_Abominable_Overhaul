@@ -33,6 +33,6 @@ Hooks:PostHook(SkillTreeTweakData, "init", "rebalance_skill_additions", function
     --Lock n' Load/Fire Control(changing that shit to Firing Line) stuff
 
     table.insert(self.skills.fire_control[1].upgrades, "player_run_and_shoot_1") --Giving Fire Control(Firing Line) hip-fire-while-sprinting capabilities
-    self.skills.shock_and_awe[1].upgrades[1] = "weapon_reload_speed_multiplier_locky_load_1" --Replacing Lock n' Load Basic with a 15% reload speed bump
+    self.skills.shock_and_awe[1].upgrades[1] = "weapon_reload_speed_multiplier_locky_load" --Replacing Lock n' Load Basic with a 15% reload speed bump
 
 end) 
