@@ -102,7 +102,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         category = "feature",
         upgrade = {
             value = 1,
-            upgrade = "passive_reload_speed_multiplier_custom_1",
+            upgrade = "passive_reload_speed_multiplier_custom",
             category = "weapon"
         }
     }
@@ -210,7 +210,7 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
 
         -- Lock n' Load Basic Stuff
 
-    self.values.weapon.passive_reload_speed_multiplier_custom_1 = {
+    self.values.weapon.passive_reload_speed_multiplier_custom = {
         1.25
     }
 

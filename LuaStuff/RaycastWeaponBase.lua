@@ -4,7 +4,7 @@ Hooks:PostHook(RaycastWeaponBase, "reload_speed_multiplier", "more_reload_speed_
     local multiplier = 1
 
     --Putting the new reload speed modifs in the actual code to check for
-    multiplier = multiplier + 1 - managers.player:upgrade_value("weapon", "passive_reload_speed_multiplier_custom_1", 1)
+    multiplier = multiplier + 1 - managers.player:upgrade_value("weapon", "passive_reload_speed_multiplier_custom_1")
 
     --Actually making the modif check mean something
     return Hooks:GetReturn() * multiplier
@@ -17,8 +17,7 @@ Hooks:PostHook(RaycastWeaponBase, "damage_multiplier", "more_damage_stuff", func
     local multiplier = 1
 
     --This SHOULD also check for the Heavy Impact damage stuff I threw in? Hopefully
-    multiplier = multiplier * managers.player:upgrade_value("weapon", "heavy_impact_damage_multiplier_1", 1)
-    multiplier = multiplier * managers.player:upgrade_value("weapon", "heavy_impact_damage_multiplier_2", 1)
+    multiplier = multiplier * managers.player:upgrade_value("weapon", "heavy_impact_damage_multiplier")
 
     --Same as above, y'know the drill
     return Hooks:GetReturn() * multiplier
