@@ -38,7 +38,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         name_id = "armor_based_damage_reduction_2",
         category = "feature",
         upgrade = {
-          value = 2,
+          value = 1,
           upgrade = "armor_damage_reduction_2",
           category = "player"
         }
@@ -47,7 +47,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         name_id = "armor_based_damage_reduction_3",
         category = "feature",
         upgrade = {
-            value = 3,
+            value = 1,
             upgrade = "armor_damage_reduction_3",
             category = "player"
         }
@@ -60,7 +60,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         category = "feature",
         upgrade = {
             value = 1,
-            upgrade = "headshot_damage_reduction",
+            upgrade = "headshot_damage_reduction_bonus",
             category = "player"
         }
     }
@@ -69,7 +69,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
         category = "feature",
         upgrade = {
             value = 2,
-            upgrade = "headshot_damage_reduction",
+            upgrade = "headshot_damage_reduction_bonus",
             category = "player"
         }
     }

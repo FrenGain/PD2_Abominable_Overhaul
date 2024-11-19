@@ -15,8 +15,9 @@ Hooks:PostHook(PlayerManager, "damage_reduction_skill_multiplier", "adding_more_
             multiplier = multiplier * self:upgrade_value("player", "armor_damage_reduction_1", 1)
             multiplier = multiplier * self:upgrade_value("player", "armor_damage_reduction_2", 1)
             multiplier = multiplier * self:upgrade_value("player", "armor_damage_reduction_3", 1)
+        end
+        
     end
-end
 
     --Actually making sure the game takes the new DR values
     return Hooks:GetReturn() * multiplier
