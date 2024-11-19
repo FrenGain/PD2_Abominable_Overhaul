@@ -97,12 +97,12 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
 
 
     --Lock n' Load Basic stuff
-    self.definitions.weapon_passive_reload_speed_multiplier_custom_1 = {
+    self.definitions.weapon_reload_speed_multiplier_custom_1 = {
         name_id = "passive_reload_speed_modifier_custom_1",
         category = "feature",
         upgrade = {
             value = 1,
-            upgrade = "passive_reload_speed_multiplier_custom",
+            upgrade = "reload_speed_multiplier_custom",
             category = "weapon"
         }
     }
