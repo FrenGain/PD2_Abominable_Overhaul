@@ -6,7 +6,7 @@
 	
 	"menu_fire_control_beta" : "FIRING LINE"
 	"menu_fire_control_beta_desc" : "BASIC: ##$basic##\nYou can now shoot your guns while sprinting.\nYou gain ##12## weapon accuracy while firing from the hip.\n\nACE: ##$pro##\nYour shooting while moving accuracy penalty is reduced by ##20%##."
-	"menu_shock_and_awe_beta_desc" : "BASIC: ##$basic##\nYou reload all weapons ##25%## faster.\n\nACE: ##$pro##\nKilling two enemies with any automatic-fire LMG, SMG, Assault RIfle or Special Weapon grants you ##100%## increased reload speed. For every bullet above ##20## in your total magazine, this effect is reduced by ##1%##. The minimum value for this effect is ##40%##."
+	"menu_shock_and_awe_beta_desc" : "BASIC: ##$basic##\nYou reload all weapons ##15%## faster.\n\nACE: ##$pro##\nKilling two enemies with any automatic-fire LMG, SMG, Assault RIfle or Special Weapon grants you ##100%## increased reload speed. For every bullet above ##20## in your total magazine, this effect is reduced by ##1%##. The minimum value for this effect is ##40%##."
 	"menu_heavy_impact_beta_desc" : "BASIC: ##$basic##\nYour shots have a ##30%## chance of staggering enemies when shot. Alongside this, your guns deal ##10%## more damage.\n\nACE: ##$pro##\nYour shots gain an additional ##35%## chance to stagger enemies when shot. Your guns deal an additional ##10%## more damage.\n\nNOTE: Cannot stagger Captain Winters or Bulldozers."
 	"menu_body_expertise_beta_desc" : "BASIC: ##$basic##\n##55%## of headshot damage is applied to body-shots. Only usable with automatic-fire SMGs, LMGs, Assault Rifles and Special Weapons.\n\nACE: ##$pro##\nAn additional ##45%## of headshot damage is added to the effect.\n\nNOTE: Headshot damage bonuses do not effect this skill."
 
