@@ -54,7 +54,7 @@ Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
     }
 
 
-    --Stuff for Bullseye DR
+    --Stuff for Bullseye DR(Now Encore)
     self.definitions.player_headshot_damage_reduction_bonus_1 = {
         name_id = "headshot_damage_reduction_1",
         category = "feature",
@@ -176,7 +176,7 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
     }
 
 
-        --Bullseye armor regen/DR
+        --Bullseye(Encore) armor regen/DR
 
     self.values.player.headshot_regen_armor_bonus = {
 		1.5,

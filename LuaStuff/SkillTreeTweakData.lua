@@ -18,7 +18,7 @@ Hooks:PostHook(SkillTreeTweakData, "init", "rebalance_skill_additions", function
     table.insert(self.skills.juggernaut[2].upgrades, "player_armor_damage_reduction_3") --Giving Iron Man Aced armor DR. Skill will be renamed to Juggernaught.
 
 
-    --Headshot temp DR effect tied to Bullseye
+    --Headshot temp DR effect tied to Bullseye(Now Encore)
     
     table.insert(self.skills.prison_wife[1].upgrades, "player_headshot_damage_reduction_bonus_1") --For giving the temp DR on headshots
     table.insert(self.skills.prison_wife[2].upgrades, "player_headshot_damage_reduction_bonus_2")
