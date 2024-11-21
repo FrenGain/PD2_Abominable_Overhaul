@@ -37,7 +37,7 @@ Hooks:PostHook(SkillTreeTweakData, "init", "rebalance_skill_additions", function
 
 
     --Sociopath 7 second melee buff thing, cuz why the hell is that not in the base game?
-    table.insert(self.specializations[5][1].upgrades, "melee_stacking_hit_expire_t")
+    table.insert(self.specializations[9][5].upgrades, "melee_stacking_hit_expire_t")
                                     --This #5 here is to decide where it goes, between 1-3-5-7-9
 
 end) 

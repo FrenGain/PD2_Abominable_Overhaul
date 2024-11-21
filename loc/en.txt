@@ -1,8 +1,8 @@
 {
 	"bm_wp_upg_bonus_team_exp_money_p3_desc" : "Gives you and your teammates a 50% boost to money/EXP gain."
 	
-	"menu_deck10_5_desc" : "Killing an enemy with a melee weapon regenerates ##10%## health.\nThis cannot occur more than once every ##1## second.\n\nWhen you are within medium range of an enemy, you receive ##8%## less damage.\n\nConsequtive melee hit buff duration is extended to ##7## seconds."
-	"menu_deck10_5_short" : "Killing an enemy with a melee weapon regenerates ##10%## health.\nThis cannot occur more than once every ##1## second.\n\nWhen you are within medium range of an enemy, you receive ##8%## less damage.\n\nConsequtive melee hit buff duration is extended to ##7## seconds."
+	"menu_deck9_5_desc" : "Killing an enemy with a melee weapon regenerates ##10%## health.\nThis cannot occur more than once every ##1## second.\n\nWhen you are within medium range of an enemy, you receive ##8%## less damage.\n\nConsequtive melee hit buff duration is extended to ##7## seconds."
+	"menu_deck9_5_short" : "Killing an enemy with a melee weapon regenerates ##10%## health.\nThis cannot occur more than once every ##1## second.\n\nWhen you are within medium range of an enemy, you receive ##8%## less damage.\n\nConsequtive melee hit buff duration is extended to ##7## seconds."
 	
 	"menu_hardware_expert_beta_desc" : "BASIC: ##$basic##\nYou fix drills/saws ##35%## faster. Trip mine deply time is decreased by ##20%##. ##Placed## drills/saws are now silent. Line of sight with a ##placed## drill/saw is required to alert civilians/guards.\n\nACE: ##$pro##\nYour ##placed## drills/saws now have a ##25%## chance to fix themselves."
 	"menu_kick_starter_beta_desc" : "BASIC: ##$basic##\nYour ##placed## drills/saws are given a ##40%## additional chance to fix themselves.\n\nACE: ##$pro##\nAllows you to fix a ##placed## drill/saw with a melee attack. Has a ##50%## chance to fix the drill/saw. This can be done when the drill/saw breaks, but only once per break."
