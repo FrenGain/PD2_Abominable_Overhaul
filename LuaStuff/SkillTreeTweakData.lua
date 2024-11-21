@@ -35,4 +35,9 @@ Hooks:PostHook(SkillTreeTweakData, "init", "rebalance_skill_additions", function
     table.insert(self.skills.fire_control[1].upgrades, "player_run_and_shoot_1") --Giving Fire Control(Firing Line) hip-fire-while-sprinting capabilities
     self.skills.shock_and_awe[1].upgrades[1] = "weapon_reload_speed_multiplier_locky_load" --Replacing Lock n' Load Basic with a 15% reload speed bump
 
+
+    --Sociopath 7 second melee buff thing, cuz why the hell is that not in the base game?
+    table.insert(self.specializations[5][1].upgrades, "melee_stacking_hit_expire_t")
+                                    --This #5 here is to decide where it goes, between 1-3-5-7-9
+
 end) 
