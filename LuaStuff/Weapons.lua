@@ -225,7 +225,8 @@ self.mateba.stats.damage = 50
 self.mateba.stats.spread = 17 
 self.mateba.stats.recoil = 13
 
---damage falloff
+
+--THE GREAT FALLOFF SCROLLS
 
 local FALLOFF_TEMPLATE = WeaponFalloffTemplate.setup_weapon_falloff_templates() 
 self.shak12.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
@@ -261,9 +262,29 @@ self.chinchilla.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
 self.peacemaker.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
 self.mateba.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
 self.galil.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.m590.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.m1897.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.b682.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.boot.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.huntsman.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.ksg.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.aa12.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.sko12.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.supernova.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.serbu.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.striker.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.m37.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.ultima.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.saiga.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.spas12.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.benelli.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.basset.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.rota.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.coach.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.judge.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
 
 
---hidden stats
+--Ammo-pickup, piercing, damage modifiers, etc
 
 --THAT PSYCHO HAS A FUCKING(OVE9000) SAW!
 self.saw.AMMO_PICKUP = {20, 40} 
@@ -433,7 +454,84 @@ self.mateba.armor_piercing_chance = 1
 --Gecko 7.62(galil)
 self.galil.armor_piercing_chance = 1 
 
---advanced options, best not touch them unless you know what you're doing
+--Mosconi Tacital(m590)
+self.m590.armor_piercing_chance = 1
+self.m590.AMMO_PICKUP = {1.5, 2.5}
+
+--Reinflelf(m1897)
+self.m1897.armor_piercing_chance = 1
+self.m1897.AMMO_PICKUP = {1, 3}
+
+--Benis Joceline(b682)
+self.b682.armor_piercing_chance = 1
+self.b682.AMMO_PICKUP = {1, 1.5}
+
+--Breakie 12g(boot)
+self.boot.armor_piercing_chance = 1
+self.boot.AMMO_PICKUP = {1, 1.8}
+
+--Mosconi(huntsman)
+self.huntsman.armor_piercing_chance = 1
+self.huntsman.AMMO_PICKUP = {1, 1.3}
+
+--That dose of Coral nearly killed you...(ksg)
+self.ksg.armor_piercing_chance = 1
+self.ksg.AMMO_PICKUP = {1.5, 2.2}
+
+--Aye Aye TWEwY(aa12)
+self.aa12.armor_piercing_chance = 1
+self.aa12.AMMO_PICKUP = {5, 7.5}
+
+--VD12(sko12)
+self.sko12.armor_piercing_chance = 1
+self.sko12.AMMO_PICKUP = {3.5, 5}
+
+--MADNESS COMBAT(supernova)
+self.supernova.armor_piercing_chance = 1
+self.supernova.AMMO_PICKUP = {1.25, 2}
+
+--Locmotion(serbu)
+self.serbu.armor_piercing_chance = 1
+self.serbu.AMMO_PICKUP = {1.25, 1.5}
+
+--Street Sweeper(striker)
+self.striker.armor_piercing_chance = 1
+self.striker.AMMO_PICKUP = {4, 6}
+
+--Goat Slap Pump Shot(m37)
+self.m37.armor_piercing_chance = 1
+self.m37.AMMO_PICKUP = {1, 5}
+
+--De Arguus(ultima)
+self.ultima.armor_piercing_chance = 1
+self.ultima.AMMO_PICKUP = {1.25, 2}
+
+--IshmashaSHAshasha(saiga)
+self.saiga.armor_piercing_chance = 1
+
+--Predator 12G(spas12)
+self.spas12.armor_piercing_chance = 1
+
+--Mr. Ten FourtEEn(benelli)
+self.benelli.armor_piercing_chance = 1
+
+--Grimm, like that guy from Black Souls!(basset)
+self.basset.armor_piercing_chance = 1
+self.basset.AMMO_PICKUP = {7.5, 12.5}
+
+--roTAT'e fAstER bAnnAnA(rota)
+self.rota.armor_piercing_chance = 1
+self.rota.AMMO_PICKUP = {3, 5}
+
+--I could really go for a barbeque bacon burga'! A barbeque bacon burga'! A barbeque bacon burga'! A ba(coach)
+self.coach.armor_piercing_chance = 1
+self.coach.AMMO_PICKUP = {1, 1.5}
+
+--Te Gugglir(judge)
+self.judge.AMMO_PICKUP = {1.25, 1.5}
+
+
+--The scary advanced stuff that you likely shouldn't touch unless you know what you're doing, know exactly what you WANT to do and how to do it, or you're smart.
 
 self.shak12.categories = {"assault_rifle"} 
 self.shak12.use_data.selection_index = 2 
