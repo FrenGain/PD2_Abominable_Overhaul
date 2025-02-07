@@ -446,7 +446,7 @@ self.parts.wpn_fps_upg_ass_m4_b_beowulf.stats = {
 	spread = 7, 
 	recoil = -11, 
 	concealment = -1,
-	extra_ammo = -5,
+	extra_ammo = -15,
 	total_ammo_mod = -5
 }
 self.parts.wpn_fps_upg_ass_m4_b_beowulf.custom_stats = {
@@ -1421,8 +1421,8 @@ self.parts.wpn_fps_ass_shak12_body_vks.stats = {
 	concealment = 0, 
 	suppression = 0, 
 	alert_size = 0,
-	extra_ammo = -15,
-	total_ammo_mod = -4
+	extra_ammo = -2,
+	total_ammo_mod = -5
 }
 self.parts.wpn_fps_ass_shak12_body_vks.custom_stats = {
 	ammo_pickup_max_mul = 4.5, 
