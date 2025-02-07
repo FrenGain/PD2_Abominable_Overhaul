@@ -46,6 +46,20 @@ end)
 
 Hooks:PostHook(WeaponFactoryTweakData, "init", "ThisFileEditsAttachmentStats", function(self)
 
+	--Ammunition(Typically for Shotguns, so that's likely to be the only thing noted here)
+
+
+--Shotguns
+
+self.parts.wpn_fps_upg_a_slug.stats = {
+	damage = 40, 
+	spread = 3
+}
+self.parts.wpn_fps_upg_a_slug.override_weapon_add = {
+	AMMO_MAX = 0
+}
+
+
 	--Barrel Extentions
 
 
