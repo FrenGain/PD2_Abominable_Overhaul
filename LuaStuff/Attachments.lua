@@ -1421,7 +1421,7 @@ self.parts.wpn_fps_ass_shak12_body_vks.stats = {
 	concealment = 0, 
 	suppression = 0, 
 	alert_size = 0,
-	extra_ammo = -2,
+	extra_ammo = -1,
 	total_ammo_mod = -5
 }
 self.parts.wpn_fps_ass_shak12_body_vks.custom_stats = {
