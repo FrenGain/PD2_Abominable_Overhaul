@@ -52,11 +52,9 @@ Hooks:PostHook(WeaponFactoryTweakData, "init", "ThisFileEditsAttachmentStats", f
 --Shotguns
 
 self.parts.wpn_fps_upg_a_slug.stats = {
-	damage = 40, 
-	spread = 3
-}
-self.parts.wpn_fps_upg_a_slug.override_weapon_add = {
-	AMMO_MAX = 0
+	damage = 45, 
+	spread = 3,
+	total_ammo_mod = 0
 }
 
 
@@ -447,17 +445,17 @@ self.parts.wpn_fps_upg_ass_m4_b_beowulf.stats = {
 	damage = 105, 
 	spread = 7, 
 	recoil = -11, 
-	concealment = -1
+	concealment = -1,
+	extra_ammo = -5,
+	total_ammo_mod = -5
 }
-self.parts.wpn_fps_upg_ass_m4_b_beowulf.custom_stats = {}
-self.parts.wpn_fps_upg_ass_m4_b_beowulf.override_weapon = {
-	CLIP_AMMO_MAX = 20,
-	AMMO_MAX = 95,
-	AMMO_PICKUP = {2.45, 7},
+self.parts.wpn_fps_upg_ass_m4_b_beowulf.custom_stats = {
+	ammo_pickup_max_mul = 3, 
+	ammo_pickup_min_mul = 7.5,
 	can_shoot_through_enemy = true, 
 	can_shoot_through_wall = true, 
 	can_shoot_through_shield = true, 
-	armor_piercing_chance = 1, 
+	armor_piercing_add = 1, 
 }
 
 self.parts.wpn_fps_ass_l85a2_b_long.stats = {
@@ -773,10 +771,8 @@ self.parts.wpn_fps_ass_m14_body_ebr.stats = {
 self.parts.wpn_fps_ass_m14_body_ruger.stats = {
 	spread = 0, 
 	recoil = -4, 
-	concealment = 12
-}
-self.parts.wpn_fps_ass_m14_body_ruger.override_weapon_add = {
-	AMMO_MAX = 0
+	concealment = 12,
+	total_ammo_mod = 0
 }
 self.parts.wpn_fps_upg_m4_s_standard.stats = {
 	spread = 0, 
@@ -1242,21 +1238,17 @@ self.parts.wpn_fps_ass_fal_m_01.stats = {
 	spread = 0, 
 	recoil = 1, 
 	concealment = -1, 
-	reload = 0
-}
-self.parts.wpn_fps_ass_fal_m_01.override_weapon_add = {
-	CLIP_AMMO_MAX = 10,
-	AMMO_MAX = 15
+	reload = 0,
+	total_ammo_mod = 2,
+	extra_ammo = 10
 }
 
 self.parts.wpn_fps_upg_m4_m_pmag.stats = {
 	spread = 0, 
 	recoil = 1, 
 	concealment = 0, 
-	reload = 2
-}
-self.parts.wpn_fps_upg_m4_m_pmag.override_weapon_add = {
-	CLIP_AMMO_MAX = 0
+	reload = 2,
+	total_ammo_mod = 0
 }
 
 self.parts.wpn_fps_upg_m4_m_quad.stats = {
@@ -1269,20 +1261,16 @@ self.parts.wpn_fps_ass_l85a2_m_emag.stats = {
 	spread = 0, 
 	recoil = 1, 
 	concealment = 0, 
-	reload = 1
-}
-self.parts.wpn_fps_ass_l85a2_m_emag.override_weapon_add = {
-	CLIP_AMMO_MAX = 0
+	reload = 1,
+	total_ammo_mod = 0
 }
 
 self.parts.wpn_fps_upg_m4_m_l5.stats = {
 	spread = 0, 
 	recoil = 1, 
 	concealment = 0, 
-	reload = 2
-}
-self.parts.wpn_fps_upg_m4_m_l5.override_weapon_add = {
-	CLIP_AMMO_MAX = -5
+	reload = 2,
+	extra_ammo = -5
 }
 
 self.parts.wpn_fps_m4_uupg_m_strike.stats = {
@@ -1298,10 +1286,8 @@ self.parts.wpn_fps_upg_ak_m_uspalm.stats = {
 	spread = 0, 
 	recoil = 1, 
 	concealment = 0, 
-	reload = 1
-}
-self.parts.wpn_fps_upg_ak_m_uspalm.override_weapon_add = {
-	CLIP_AMMO_MAX = 0
+	reload = 1,
+	total_ammo_mod = 0
 }
 self.parts.wpn_fps_smg_schakal_m_short.stats = {
 	spread = 0, 
@@ -1370,9 +1356,9 @@ self.parts.wpn_fps_smg_p90_m_strap.stats = {
 self.parts.wpn_fps_saw_m_blade_sharp.stats = {
 	damage = 15
 }
-self.parts.wpn_fps_saw_m_blade_durable.override_weapon_add = {
-	CLIP_AMMO_MAX = 450,
-	AMMO_MAX = 2500,
+self.parts.wpn_fps_saw_m_blade_durable.stats = {
+	extra_ammo = 450,
+	total_ammo_mod = 10
 }
 
 
@@ -1404,8 +1390,8 @@ self.parts.wpn_fps_hailstorm_conversion.stats = {
 	recoil = 3,
 	concealment = 2
 }
-self.parts.wpn_fps_hailstorm_conversion.override_weapon_multiply = {
-	fire_mode_data = {fire_rate = 1 / 1.125}
+self.parts.wpn_fps_hailstorm_conversion.custom_stats = {
+	fire_rate_multiplier = 1.25
 }
 
 self.parts.wpn_fps_smg_p90_body_boxy.stats = {
@@ -1434,18 +1420,18 @@ self.parts.wpn_fps_ass_shak12_body_vks.stats = {
 	recoil = -5, 
 	concealment = 0, 
 	suppression = 0, 
-	alert_size = 0
+	alert_size = 0,
+	extra_ammo = -15,
+	total_ammo_mod = -4
 }
-self.parts.wpn_fps_ass_shak12_body_vks.custom_stats = {}
-self.parts.wpn_fps_ass_shak12_body_vks.override_weapon = {
-	CLIP_AMMO_MAX = 10,
-	AMMO_MAX = 30,
-	AMMO_PICKUP = {4, 6},
+self.parts.wpn_fps_ass_shak12_body_vks.custom_stats = {
+	ammo_pickup_max_mul = 4.5, 
+	ammo_pickup_min_mul = 7,
+	fire_rate_multiplier = 0.75,
 	can_shoot_through_enemy = true, 
 	can_shoot_through_wall = true, 
 	can_shoot_through_shield = true, 
-	armor_piercing_chance = 1, 
-	fire_mode_data = {fire_rate = 60 / 350}
+	armor_piercing_add = 1, 
 }
 self.parts.wpn_fps_upg_ass_m4_lower_reciever_core.stats = {
 	damage = 5, 
