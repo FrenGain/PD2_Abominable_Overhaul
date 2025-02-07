@@ -301,7 +301,7 @@ self.basset.stats.spread = 6
 self.basset.stats.recoil = 16
 
 --Goliath 12g(rota)
-self.rota.stats.damage = 119
+self.rota.stats.damage = 144
 self.rota.stats.spread = 10
 self.rota.stats.recoil = 14
 
@@ -321,7 +321,7 @@ self.striker.stats.spread = 4
 self.striker.stats.recoil = 17
 
 --GSPS 12g(m37)
-self.m37.stats.damage = 78
+self.m37.stats.damage = 22
 self.m37.stats.spread = 20
 self.m37.stats.recoil = 5
 
@@ -567,57 +567,57 @@ self.galil.armor_piercing_chance = 1
 --Mosconi Tacital(m590)
 self.m590.armor_piercing_chance = 1
 self.m590.AMMO_PICKUP = {1.5, 2.5}
-self.m590.stats_modifiers = {damage = 13}
+self.m590.stats_modifiers = {damage = 3}
 
 --Reinflelf(m1897)
 self.m1897.armor_piercing_chance = 1
 self.m1897.AMMO_PICKUP = {1, 3}
-self.m1897.stats_modifiers = {damage = 13}
+self.m1897.stats_modifiers = {damage = 4}
 
 --Benis Joceline(b682)
 self.b682.armor_piercing_chance = 1
-self.b682.AMMO_PICKUP = {1, 1.5}
-self.b682.stats_modifiers = {damage = 16}
+self.b682.AMMO_PICKUP = {1.25, 1.75}
+self.b682.stats_modifiers = {damage = 6}
 
 --Breakie 12g(boot)
 self.boot.armor_piercing_chance = 1
 self.boot.AMMO_PICKUP = {1, 1.8}
-self.boot.stats_modifiers = {damage = 22}
+self.boot.stats_modifiers = {damage = 5}
 
 --Mosconi(huntsman)
 self.huntsman.armor_piercing_chance = 1
 self.huntsman.AMMO_PICKUP = {1, 1.3}
-self.huntsman.stats_modifiers = {damage = 17}
+self.huntsman.stats_modifiers = {damage = 6}
 
 --That dose of Coral nearly killed you...(ksg)
 self.ksg.armor_piercing_chance = 1
 self.ksg.AMMO_PICKUP = {1.5, 2.2}
-self.ksg.stats_modifiers = {damage = 15}
+self.ksg.stats_modifiers = {damage = 3}
 
 --Aye Aye TWEwY(aa12)
 self.aa12.armor_piercing_chance = 1
 self.aa12.AMMO_PICKUP = {5, 7.5}
-self.aa12.stats_modifiers = {damage = 7}
+self.aa12.stats_modifiers = {damage = 4}
 
 --VD12(sko12)
 self.sko12.armor_piercing_chance = 1
 self.sko12.AMMO_PICKUP = {3.5, 5}
-self.sko12.stats_modifiers = {damage = 9}
+self.sko12.stats_modifiers = {damage = 5}
 
 --MADNESS COMBAT(supernova)
 self.supernova.armor_piercing_chance = 1
 self.supernova.AMMO_PICKUP = {1, 2}
-self.supernova.stats_modifiers = {damage = 22}
+self.supernova.stats_modifiers = {damage = 6}
 
 --Locmotion(serbu)
 self.serbu.armor_piercing_chance = 1
 self.serbu.AMMO_PICKUP = {1.25, 1.5}
-self.serbu.stats_modifiers = {damage = 19}
+self.serbu.stats_modifiers = {damage = 4}
 
 --Street Sweeper(striker)
 self.striker.armor_piercing_chance = 1
 self.striker.AMMO_PICKUP = {4, 6}
-self.striker.stats_modifiers = {damage = 7}
+self.striker.stats_modifiers = {damage = 3}
 
 --Goat Slap Pump Shot(m37)
 self.m37.armor_piercing_chance = 1
@@ -627,47 +627,47 @@ self.m37.stats_modifiers = {damage = 30}
 --De Arguus(ultima)
 self.ultima.armor_piercing_chance = 1
 self.ultima.AMMO_PICKUP = {1.25, 2}
-self.ultima.stats_modifiers = {damage = 18}
+self.ultima.stats_modifiers = {damage = 4}
 
 --IshmashaSHAshasha(saiga)
 self.saiga.armor_piercing_chance = 1
 self.saiga.AMMO_PICKUP = {2.5, 5}
-self.saiga.stats_modifiers = {damage = 5}
+self.saiga.stats_modifiers = {damage = 2}
 
 --Predator 12G(spas12)
 self.spas12.armor_piercing_chance = 1
 self.spas12.AMMO_PICKUP = {3, 4}
-self.spas12.stats_modifiers = {damage = 10}
+self.spas12.stats_modifiers = {damage = 2}
 
 --Mr. Ten FourtEEn(benelli)
 self.benelli.armor_piercing_chance = 1
 self.benelli.AMMO_PICKUP = {2, 5}
-self.benelli.stats_modifiers = {damage = 10}
+self.benelli.stats_modifiers = {damage = 2}
 
 --Grimm, like that guy from Black Souls!(basset)
 self.basset.armor_piercing_chance = 1
 self.basset.AMMO_PICKUP = {7.5, 12.5}
-self.basset.stats_modifiers = {damage = 6}
+self.basset.stats_modifiers = {damage = 2}
 
 --roTAT'e fAstER bAnnAnA(rota)
 self.rota.armor_piercing_chance = 1
 self.rota.AMMO_PICKUP = {3, 5}
-self.rota.stats_modifiers = {damage = 8}
+self.rota.stats_modifiers = {damage = 2}
 
 --I could really go for a barbeque bacon burga'! A barbeque bacon burga'! A barbeque bacon burga'! A ba(coach)
 self.coach.armor_piercing_chance = 1
 self.coach.AMMO_PICKUP = {1, 1.5}
-self.coach.stats_modifiers = {damage = 15}
+self.coach.stats_modifiers = {damage = 4}
 
 --Te Gugglir(judge)
 self.judge.armor_piercing_chance = 1
 self.judge.AMMO_PICKUP = {1.25, 1.5}
-self.judge.stats_modifiers = {damage = 17}
+self.judge.stats_modifiers = {damage = 4}
 
 --Reinfeld 88(r870)
 self.r870.armor_piercing_chance = 1
 self.r870.AMMO_PICKUP = {1, 2}
-self.r870.stats_modifiers = {damage = 12}
+self.r870.stats_modifiers = {damage = 3}
 
 
 --The scary advanced stuff that you likely shouldn't touch unless you know what you're doing, know exactly what you WANT to do and how to do it, or you're smart.
