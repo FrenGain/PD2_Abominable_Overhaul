@@ -241,7 +241,7 @@ self.saiga.stats.spread = 9
 self.saiga.stats.recoil = 13
 
 --Mosconi 12g(Huntsman)
-self.huntsman.stats.damage = 125
+self.huntsman.stats.damage = 115
 self.huntsman.stats.spread = 15
 self.huntsman.stats.recoil = 5
 
@@ -251,7 +251,7 @@ self.spas12.stats.spread = 18
 self.spas12.stats.recoil = 12
 
 --Joceline O/U 12g(b682)
-self.b682.stats.damage = 100
+self.b682.stats.damage = 105
 self.b682.stats.spread = 18
 self.b682.stats.recoil = 7
 
@@ -271,7 +271,7 @@ self.aa12.stats.spread = 10
 self.aa12.stats.recoil = 16
 
 --Breaker 12g(boot)
-self.boot.stats.damage = 130
+self.boot.stats.damage = 120
 self.boot.stats.spread = 17
 self.boot.stats.recoil = 3
 
@@ -577,7 +577,7 @@ self.m1897.stats_modifiers = {damage = 3}
 --Benis Joceline(b682)
 self.b682.armor_piercing_chance = 1
 self.b682.AMMO_PICKUP = {1.25, 1.75}
-self.b682.stats_modifiers = {damage = 6}
+self.b682.stats_modifiers = {damage = 4}
 
 --Breakie 12g(boot)
 self.boot.armor_piercing_chance = 1
@@ -587,7 +587,7 @@ self.boot.stats_modifiers = {damage = 4}
 --Mosconi(huntsman)
 self.huntsman.armor_piercing_chance = 1
 self.huntsman.AMMO_PICKUP = {1, 1.3}
-self.huntsman.stats_modifiers = {damage = 6}
+self.huntsman.stats_modifiers = {damage = 4}
 
 --That dose of Coral nearly killed you...(ksg)
 self.ksg.armor_piercing_chance = 1
