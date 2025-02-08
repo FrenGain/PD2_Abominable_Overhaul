@@ -226,42 +226,42 @@ self.mateba.stats.spread = 17
 self.mateba.stats.recoil = 13
 
 --Reinfeld 880(r870)
-self.r870.stats.damage = 135
+self.r870.stats.damage = 111
 self.r870.stats.spread = 10
 self.r870.stats.recoil = 7
 
 --Reinfeld 88(m1897) Why these names are so similar I'll never know.
-self.m1897.stats.damage = 125
+self.m1897.stats.damage = 112
 self.m1897.stats.spread = 16
 self.m1897.stats.recoil = 9
 
 --Izhma(saiga)
-self.saiga.stats.damage = 126
+self.saiga.stats.damage = 115
 self.saiga.stats.spread = 9
 self.saiga.stats.recoil = 13
 
 --Mosconi 12g(Huntsman)
-self.huntsman.stats.damage = 131
+self.huntsman.stats.damage = 125
 self.huntsman.stats.spread = 15
 self.huntsman.stats.recoil = 5
 
 --Predator 12g(spas12)
-self.spas12.stats.damage = 135
+self.spas12.stats.damage = 95
 self.spas12.stats.spread = 18
 self.spas12.stats.recoil = 12
 
 --Joceline O/U 12g(b682)
-self.b682.stats.damage = 126
+self.b682.stats.damage = 100
 self.b682.stats.spread = 18
 self.b682.stats.recoil = 7
 
 --M1014(benelli)
-self.benelli.stats.damage = 122
+self.benelli.stats.damage = 100
 self.benelli.stats.spread = 14
 self.benelli.stats.recoil = 12
 
 --Raven(ksg)
-self.ksg.stats.damage = 143
+self.ksg.stats.damage = 151
 self.ksg.stats.spread = 12
 self.ksg.stats.recoil = 17
 
@@ -276,12 +276,12 @@ self.boot.stats.spread = 17
 self.boot.stats.recoil = 3
 
 --Mosconi 12g Tactical(m590)
-self.m590.stats.damage = 124
+self.m590.stats.damage = 100
 self.m590.stats.spread = 15
 self.m590.stats.recoil = 6
 
 --VD-12(sko12)
-self.sko12.stats.damage = 112
+self.sko12.stats.damage = 86
 self.sko12.stats.spread = 9
 self.sko12.stats.recoil = 13
 
@@ -291,42 +291,42 @@ self.supernova.stats.spread = 13
 self.supernova.stats.recoil = 6
 
 --Locomotive 12g(serbu)
-self.serbu.stats.damage = 123
+self.serbu.stats.damage = 97
 self.serbu.stats.spread = 11
 self.serbu.stats.recoil = 10
 
 --Grimm 12g(basset)
-self.basset.stats.damage = 136
+self.basset.stats.damage = 96
 self.basset.stats.spread = 6
 self.basset.stats.recoil = 16
 
 --Goliath 12g(rota)
-self.rota.stats.damage = 144
+self.rota.stats.damage = 108
 self.rota.stats.spread = 10
 self.rota.stats.recoil = 14
 
 --Claire 12g(coach)
-self.coach.stats.damage = 149
+self.coach.stats.damage = 124
 self.coach.stats.spread = 15
 self.coach.stats.recoil = 7
 
 --The Judge(judge)
-self.judge.stats.damage = 125
+self.judge.stats.damage = 145
 self.judge.stats.spread = 13
 self.judge.stats.recoil = 5
 
 --Street Sweeper(striker)
-self.striker.stats.damage = 139
+self.striker.stats.damage = 132
 self.striker.stats.spread = 4
 self.striker.stats.recoil = 17
 
 --GSPS 12g(m37)
-self.m37.stats.damage = 22
+self.m37.stats.damage = 100
 self.m37.stats.spread = 20
 self.m37.stats.recoil = 5
 
 --Argos III(ultima)
-self.ultima.stats.damage = 119
+self.ultima.stats.damage = 111
 self.ultima.stats.spread = 7
 self.ultima.stats.recoil = 11
 
@@ -572,7 +572,7 @@ self.m590.stats_modifiers = {damage = 3}
 --Reinflelf(m1897)
 self.m1897.armor_piercing_chance = 1
 self.m1897.AMMO_PICKUP = {1, 3}
-self.m1897.stats_modifiers = {damage = 4}
+self.m1897.stats_modifiers = {damage = 3}
 
 --Benis Joceline(b682)
 self.b682.armor_piercing_chance = 1
@@ -582,7 +582,7 @@ self.b682.stats_modifiers = {damage = 6}
 --Breakie 12g(boot)
 self.boot.armor_piercing_chance = 1
 self.boot.AMMO_PICKUP = {1, 1.8}
-self.boot.stats_modifiers = {damage = 5}
+self.boot.stats_modifiers = {damage = 4}
 
 --Mosconi(huntsman)
 self.huntsman.armor_piercing_chance = 1
@@ -592,42 +592,42 @@ self.huntsman.stats_modifiers = {damage = 6}
 --That dose of Coral nearly killed you...(ksg)
 self.ksg.armor_piercing_chance = 1
 self.ksg.AMMO_PICKUP = {1.5, 2.2}
-self.ksg.stats_modifiers = {damage = 3}
+self.ksg.stats_modifiers = {damage = 2}
 
 --Aye Aye TWEwY(aa12)
 self.aa12.armor_piercing_chance = 1
 self.aa12.AMMO_PICKUP = {5, 7.5}
-self.aa12.stats_modifiers = {damage = 4}
+self.aa12.stats_modifiers = {damage = 3}
 
 --VD12(sko12)
 self.sko12.armor_piercing_chance = 1
 self.sko12.AMMO_PICKUP = {3.5, 5}
-self.sko12.stats_modifiers = {damage = 5}
+self.sko12.stats_modifiers = {damage = 3}
 
 --MADNESS COMBAT(supernova)
 self.supernova.armor_piercing_chance = 1
 self.supernova.AMMO_PICKUP = {1, 2}
-self.supernova.stats_modifiers = {damage = 6}
+self.supernova.stats_modifiers = {damage = 3}
 
 --Locmotion(serbu)
 self.serbu.armor_piercing_chance = 1
 self.serbu.AMMO_PICKUP = {1.25, 1.5}
-self.serbu.stats_modifiers = {damage = 4}
+self.serbu.stats_modifiers = {damage = 3}
 
 --Street Sweeper(striker)
 self.striker.armor_piercing_chance = 1
 self.striker.AMMO_PICKUP = {4, 6}
-self.striker.stats_modifiers = {damage = 3}
+self.striker.stats_modifiers = {damage = 2}
 
 --Goat Slap Pump Shot(m37)
 self.m37.armor_piercing_chance = 1
 self.m37.AMMO_PICKUP = {1, 5}
-self.m37.stats_modifiers = {damage = 30}
+self.m37.stats_modifiers = {damage = 3}
 
 --De Arguus(ultima)
 self.ultima.armor_piercing_chance = 1
 self.ultima.AMMO_PICKUP = {1.25, 2}
-self.ultima.stats_modifiers = {damage = 4}
+self.ultima.stats_modifiers = {damage = 3}
 
 --IshmashaSHAshasha(saiga)
 self.saiga.armor_piercing_chance = 1
@@ -657,12 +657,12 @@ self.rota.stats_modifiers = {damage = 2}
 --I could really go for a barbeque bacon burga'! A barbeque bacon burga'! A barbeque bacon burga'! A ba(coach)
 self.coach.armor_piercing_chance = 1
 self.coach.AMMO_PICKUP = {1, 1.5}
-self.coach.stats_modifiers = {damage = 4}
+self.coach.stats_modifiers = {damage = 3}
 
 --Te Gugglir(judge)
 self.judge.armor_piercing_chance = 1
 self.judge.AMMO_PICKUP = {1.25, 1.5}
-self.judge.stats_modifiers = {damage = 4}
+self.judge.stats_modifiers = {damage = 2}
 
 --Reinfeld 88(r870)
 self.r870.armor_piercing_chance = 1
