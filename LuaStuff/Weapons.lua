@@ -332,12 +332,12 @@ self.ultima.stats.recoil = 11
 
 --Deagle(deagle)
 self.deagle.stats.damage = 67
-self.deagle.stats.spread = 14
-self.deagle.stats.recoil = 7
+self.deagle.stats.spread = 16
+self.deagle.stats.recoil = 9
 
 --Akimbo Deagle(x_deagle)
 self.x_deagle.stats.damage = 67
-self.x_deagle.stats.spread = 11
+self.x_deagle.stats.spread = 12
 self.x_deagle.stats.recoil = 5
 
 
