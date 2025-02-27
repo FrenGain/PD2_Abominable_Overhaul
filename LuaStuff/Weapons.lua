@@ -331,14 +331,14 @@ self.ultima.stats.spread = 7
 self.ultima.stats.recoil = 11
 
 --Deagle(deagle)
-self.deagle.stats.damage = 87
+self.deagle.stats.damage = 67
 self.deagle.stats.spread = 14
 self.deagle.stats.recoil = 7
 
 --Akimbo Deagle(x_deagle)
-self.x_deagle.stats.damage = 87
+self.x_deagle.stats.damage = 67
 self.x_deagle.stats.spread = 11
-self.x_deagle.stats.spread = 5
+self.x_deagle.stats.recoil = 5
 
 
 --self.id_here.stats.stat_here = number_here
