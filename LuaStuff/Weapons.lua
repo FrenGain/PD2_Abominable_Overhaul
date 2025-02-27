@@ -330,6 +330,16 @@ self.ultima.stats.damage = 111
 self.ultima.stats.spread = 7
 self.ultima.stats.recoil = 11
 
+--Deagle(deagle)
+self.deagle.stats.damage = 87
+self.deagle.stats.spread = 14
+self.deagle.stats.recoil = 7
+
+--Akimbo Deagle(x_deagle)
+self.x_deagle.stats.damage = 87
+self.x_deagle.stats.spread = 11
+self.x_deagle.stats.spread = 5
+
 
 --self.id_here.stats.stat_here = number_here
 --Keeping this commented in here for future weapon tweaks. Will likely move it up the file as I do them.
@@ -392,6 +402,8 @@ self.rota.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
 self.coach.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
 self.judge.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
 self.r870.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.deagle.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.x_deagle.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
 
 
 --Ammo-pickup, piercing, damage modifiers, etc
@@ -668,6 +680,16 @@ self.judge.stats_modifiers = {damage = 2}
 self.r870.armor_piercing_chance = 1
 self.r870.AMMO_PICKUP = {1, 2}
 self.r870.stats_modifiers = {damage = 3}
+
+--Deagle(deagle)
+self.deagle.armor_piercing_chance = 1
+self.deagle.AMMO_PICKUP = {1.5, 2.5}
+self.deagle.stats_modifiers = {damage = 3}
+
+--Akimbo Deagle(x_deagle)
+self.x_deagle.armor_piercing_chance = 1
+self.x_deagle.AMMO_PICKUP = {1, 2.5}
+self.x_deagle.stats_modifiers = {damage = 3}
 
 
 --The scary advanced stuff that you likely shouldn't touch unless you know what you're doing, know exactly what you WANT to do and how to do it, or you're smart.
