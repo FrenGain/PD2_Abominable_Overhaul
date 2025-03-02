@@ -154,11 +154,11 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "skill_value_changes", fun
         0
     }
     self.values.player.health_damage_reduction = {
-		0.85,
+		0.80,
 		0.65
 	}
     self.values.player.max_health_reduction = {
-		0.7,
+		0.30,
         0.15
 	}
 
