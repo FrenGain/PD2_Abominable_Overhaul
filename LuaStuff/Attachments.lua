@@ -53,7 +53,7 @@ Hooks:PostHook(WeaponFactoryTweakData, "init", "ThisFileEditsAttachmentStats", f
 
 self.parts.wpn_fps_upg_a_slug.stats = {
 	damage = 45, 
-	spread = 3,
+	spread = 12,
 	total_ammo_mod = 0
 }
 
