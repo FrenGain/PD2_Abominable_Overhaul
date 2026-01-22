@@ -232,7 +232,7 @@ self.mateba.stats.recoil = 13
 --Chimano 88(glock_17)
 self.glock_17.stats.damage = 84
 self.glock_17.stats.spread = 12
-self.glack_17.stats.recoil = 17
+self.glock_17.stats.recoil = 17
 
 --Crosskill(colt_1911)
 self.colt_1911.stats.damage = 56
