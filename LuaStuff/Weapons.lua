@@ -295,7 +295,7 @@ self.c96.stats.recoil = 32
 self.c96.fire_mode_data.fire_rate = 60 / 400
 
 --Contractor(packrat)
-self.packrat.stats.damage = 62
+self.packrat.stats.damage = 55
 self.packrat.stats.spread = 20
 self.packrat.stats.recoil = 10
 
@@ -326,12 +326,12 @@ self.holt.stats.spread = 21
 self.holt.stats.recoil = 18
 
 --Interceptor .45(usp)
-self.usp.stats.damage = 45 
+self.usp.stats.damage = 65 
 self.usp.stats.spread = 18
 self.usp.stats.recoil = 13
 
 --Chimano Custom(g22c)
-self.g22c.stats.damage = 70.5
+self.g22c.stats.damage = 71
 self.g22c.stats.spread = 20
 self.g22c.stats.recoil = 11
 
@@ -750,12 +750,12 @@ self.shrew.AMMO_PICKUP = {12, 18}
 self.glock_18c.AMMO_PICKUP = {15, 25}
 
 --Deagle(deagle)
-self.deagle.stats_modifiers = {damage = 3.5}
+self.deagle.stats_modifiers = {damage = 4}
 self.deagle.AMMO_PICKUP = {2, 2.5}
 self.deagle.armor_piercing_chance = 1
 
 --Signature .40(p226)
-self.p226.stats_modifier = {damage = 2}
+self.p226.stats_modifier = {damage = 3}
 self.p226.AMMO_PICKUP = {4, 5}
 self.p226.armor_piercing_chance = 1
 
@@ -797,7 +797,7 @@ self.stech.AMMO_PICKUP = {10, 14}
 self.holt.AMMO_PICKUP = {12, 15}
 
 --Interceptor .45(usp)
-self.usp.stats_modifiers = {damage = 4}
+self.usp.stats_modifiers = {damage = 2.5}
 self.usp.AMMO_PICKUP = {4, 5}
 self.usp.armor_piercing_chance = 1
 
