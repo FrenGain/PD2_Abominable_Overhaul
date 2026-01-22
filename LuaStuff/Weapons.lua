@@ -13,9 +13,6 @@ self.saw_secondary.AMMO_MAX = 1250
 self.saw_secondary.stats.damage = 25 
 self.saw_secondary.stats.suppression = 1 
 
-
-
-
     -- Rifles/SMGs/LMGs
 
 --shAK12(KS12)
@@ -193,10 +190,6 @@ self.vhs.stats.damage = 73
 self.vhs.stats.spread = 10
 self.vhs.stats.recoil = 14
 
-
-
-
-
     -- Pistols
 
 --RUS Tiger(rsh12)
@@ -355,10 +348,6 @@ self.type54_underbarrel.stats.damage = 72
 self.type54_underbarrel.stats.spread = 15
 self.type54_underbarrel.stats.recoil = 20
 
-
-
-
-
     -- Shotguns 
 
 --Reinfeld 880(r870)
@@ -466,9 +455,6 @@ self.ultima.stats.damage = 111
 self.ultima.stats.spread = 7
 self.ultima.stats.recoil = 11
 
-
-
-
     -- Akimbos ig
 
 --Akimbo Deagle(x_deagle)
@@ -573,10 +559,6 @@ self.saw.armor_piercing_chance = 1
 
 self.saw_secondary.AMMO_PICKUP = {20, 40} 
 self.saw_secondary.armor_piercing_chance = 1 
-
-
-
-
 
     -- Rifles/SMGs/LMGs
 
@@ -694,10 +676,6 @@ self.flint.can_shoot_through_shield = true
 
 --Gecko 7.62(galil)
 self.galil.armor_piercing_chance = 1 
-
-
-
-
 
     -- Pistols
 
@@ -838,10 +816,6 @@ self.maxim9.armor_piercing_chance = 1
 
 --Kang Arms Model 54(type54_underbarrel)
 self.type54_underbarrel.AMMO_PICKUP = {10, 15}
-
-
-
-
 
     -- Shotguns 
 
