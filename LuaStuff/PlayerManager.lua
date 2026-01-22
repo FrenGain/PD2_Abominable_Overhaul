@@ -1,4 +1,4 @@
-Hooks:PostHook(PlayerManager, "damage_reduction_skill_multiplier", "adding_more_DR_methods", function(self, damage_type)
+Hooks:PostHook(PlayerManager, "damage_reduction_skill_multiplier", "PlayerManager", function(self, damage_type)
 
     --Crashed without this, so better to have it than to not for now(also works just fine even with it, so)
     local multiplier = 1

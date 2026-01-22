@@ -1,4 +1,4 @@
-Hooks:PostHook(BlackMarketTweakData, "_init_melee_weapons", "ThisFileEditsMeleeStats", function(self) 
+Hooks:PostHook(BlackMarketTweakData, "_init_melee_weapons", "Melees", function(self) 
 
 
 	--350K Brass Knucks

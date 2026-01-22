@@ -1,4 +1,4 @@
-Hooks:PostHook(WeaponFactoryTweakData, "create_bonuses", "ThisFileEditsAttachmentStats", function(self)
+Hooks:PostHook(WeaponFactoryTweakData, "create_bonuses", "Attachments", function(self)
 
 	--Boost Buffs
 

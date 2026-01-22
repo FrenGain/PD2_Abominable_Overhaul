@@ -1,4 +1,4 @@
-Hooks:PostHook(UpgradesTweakData, "init", "making_new_upgrades", function(self)
+Hooks:PostHook(UpgradesTweakData, "init", "UpgradesTweakData", function(self)
 
     --this is to give Transporter Aced increased bag throw distances
     self.definitions.carry_throw_distance_multiplier_2 = {

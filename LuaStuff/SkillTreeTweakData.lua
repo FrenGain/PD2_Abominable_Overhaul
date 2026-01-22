@@ -1,4 +1,4 @@
-Hooks:PostHook(SkillTreeTweakData, "init", "rebalance_skill_additions", function(self)
+Hooks:PostHook(SkillTreeTweakData, "init", "SkillTreeTweakData", function(self)
 
 
     --Transporter Stuff(pack_mule)

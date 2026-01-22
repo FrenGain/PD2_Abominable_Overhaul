@@ -1,4 +1,4 @@
-Hooks:PostHook(WeaponTweakData, "init", "ThisFileEditsWeaponStats", function(self)  --replace "ThisFileEditsWeaponStats" with the name of this file
+Hooks:PostHook(WeaponTweakData, "init", "Weapons", function(self)  --replace "ThisFileEditsWeaponStats" with the name of this file(oh god above I hate it here)
 
 --displayed stats
 
