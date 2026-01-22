@@ -13,6 +13,10 @@ self.saw_secondary.AMMO_MAX = 1250
 self.saw_secondary.stats.damage = 25 
 self.saw_secondary.stats.suppression = 1 
 
+
+    --  ===   ===  ===  --
+    -- Rifles/SMGs/LMGs --
+    --  ===   ===  ===  --
 --shAK12(KS12)
 self.shak12.CLIP_AMMO_MAX = 15
 self.shak12.AMMO_MAX = 60
@@ -188,6 +192,11 @@ self.vhs.stats.damage = 73
 self.vhs.stats.spread = 10
 self.vhs.stats.recoil = 14
 
+
+
+    --   ===   --
+    -- Pistols --
+    --   ===   --
 --RUS Tiger(rsh12)
 self.rsh12.AMMO_MAX = 25
 self.rsh12.stats.damage = 80
@@ -225,6 +234,130 @@ self.mateba.stats.damage = 50
 self.mateba.stats.spread = 17 
 self.mateba.stats.recoil = 13
 
+--Chimano 88(glock_17)
+self.glock_17.stats.damage = 84
+self.glock_17.stats.spread = 12
+self.glack_17.stats.recoil = 17
+
+--Crosskill(colt_1911)
+self.colt_1911.stats.damage = 56
+self.colt_1911.stats.spread = 14
+self.colt_1911.stats.recoil = 6
+
+--Bernetti 9(b92fs)
+self.b92fs.stats.damage = 82
+self.b92fs.stats.spread = 14
+self.b92fs.stats.recoil = 15
+
+--White Streak(pl14)
+self.pl14.stats.damage = 66
+self.pl14.stats.spread = 17
+self.pl14.stats.recoil = 6
+
+--Parabellum(breech)
+self.breech.AMMO_MAX = 104
+self.breech.damage = 85
+self.breech.spread = 15
+self.breech.recoil = 15
+self.breech.fire_mode_data.fire_rate = 60 / 550
+
+--Crosskill Guard(shrew)
+self.shrew.stats.damage = 80
+self.shrew.stats.spread = 15
+self.shrew.stats.recoil = 17
+self.shrew.fire_mode_data.fire_rate = 60 / 800
+
+--STRYK 18c(glock_18c)
+self.glock_18c.stats.damage = 77
+self.glock_18c.stats.spread = 10
+self.glock_18c.stats.recoil = 19
+self.glock_18c.fire_mode_data.fire_rate = 60 / 1200
+
+--Deagle(deagle)
+self.deagle.stats.damage = 51
+self.deagle.stats.spread = 19
+self.deagle.stats.recoil = 11
+
+--Signature .40(p226)
+self.p226.stats.damage = 75
+self.p226.stats.spread = 18
+self.p226.stats.recoil = 10
+
+--Crosskill Chunky Compact(m1911)
+self.m1911.stats.damage = 123
+self.m1911.stats.spread = 17 
+self.m1911.stats.recoil = 13
+
+--Baby Deagle(sparrow)
+self.sparrow.stats.damage = 66
+self.sparrow.stats.spread = 17
+self.sparrow.stats.recoil = 6
+
+--Broomstick(c96)
+self.c96.stats.damage = 90
+self.c96.stats.spread = 32
+self.c96.stats.recoil = 32
+self.c96.fire_mode_data.fire_rate = 60 / 400
+
+--Contractor(packrat)
+self.packrat.stats.damage = 62
+self.packrat.stats.spread = 20
+self.packrat.stats.recoil = 10
+
+--LEO(hs2000)
+self.hs2000.stats.damage = 50
+self.hs2000.stats.spread = 22
+self.hs2000.stats.recoil = 7
+
+--Bernetti Auto(beer)
+self.beer.stats.damage = 60
+self.beer.stats.spread = 13
+self.beer.stats.recoil = 20
+self.beer.fire_mode_data.fire_rate = 60 / 1303
+
+--Czech 92(czech)
+self.czech.stats.damage = 67
+self.czech.stats.spread = 15
+self.czech.stats.recoil = 13
+
+--Igor Automatik(stech)
+self.stech.stats.damage = 75
+self.stech.stats.spread = 18
+self.stech.stats.recoil = 16
+
+--HOLT 9mm(holt)
+self.holt.stats.damage = 82
+self.holt.stats.spread = 21
+self.holt.stats.recoil = 18
+
+--Interceptor .45(usp)
+self.usp.stats.damage = 45 
+self.usp.stats.spread = 18
+self.usp.stats.recoil = 13
+
+--Chimano Custom(g22c)
+self.g22c.stats.damage = 70.5
+self.g22c.stats.spread = 20
+self.g22c.stats.recoil = 11
+
+--5/7 AP(lemming)
+self.lemming.stats.spread 18
+
+--Gecko M2(maxim9)
+self.maxim9.stats.damage = 33
+self.maxim9.stats.suppression = 20
+self.maxim9.stats.spread = 20
+
+--Kang Arms Model 54(type54_underbarrel)
+self.type54_underbarrel.stats.damage = 72
+self.type54_underbarrel.stats.spread = 15
+self.type54_underbarrel.stats.recoil = 20
+
+
+
+    --   ===    --
+    -- Shotguns --
+    --   ===    --
 --Reinfeld 880(r870)
 self.r870.stats.damage = 111
 self.r870.stats.spread = 10
@@ -330,11 +463,10 @@ self.ultima.stats.damage = 111
 self.ultima.stats.spread = 7
 self.ultima.stats.recoil = 11
 
---Deagle(deagle)
-self.deagle.stats.damage = 67
-self.deagle.stats.spread = 16
-self.deagle.stats.recoil = 9
 
+    --    ===     --
+    -- Akimbos ig --
+    --    ===     --
 --Akimbo Deagle(x_deagle)
 self.x_deagle.stats.damage = 67
 self.x_deagle.stats.spread = 12
@@ -343,6 +475,7 @@ self.x_deagle.stats.recoil = 5
 
 --self.id_here.stats.stat_here = number_here
 --Keeping this commented in here for future weapon tweaks. Will likely move it up the file as I do them.
+--I just decided to read what I'd already done. Turns out, pretty good to retrace your steps on this topic. Also doing some reformatting so things can be cleaner.
 
 
 --THE GREAT FALLOFF SCROLLS
@@ -404,6 +537,28 @@ self.judge.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
 self.r870.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
 self.deagle.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
 self.x_deagle.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.glock_17.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.colt_1911.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH 
+self.b91fs.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.pl14.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.breech.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.shrew.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.glock_18c.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.p226.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.m1911.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.sparrow.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.c96.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.packrat.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.hs2000.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.beer.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.czech.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.stech.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.holt.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.usp.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.g22c.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.lemming.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.maxim9.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
+self.type54_underbarrel.damage_falloff = FALLOFF_TEMPLATE.ASSAULT_FALL_HIGH
 
 
 --Ammo-pickup, piercing, damage modifiers, etc
@@ -415,6 +570,11 @@ self.saw.armor_piercing_chance = 1
 self.saw_secondary.AMMO_PICKUP = {20, 40} 
 self.saw_secondary.armor_piercing_chance = 1 
 
+
+
+    --  ===   ===  ===  --
+    -- Rifles/SMGs/LMGs --
+    --  ===   ===  ===  --
 --shAK12
 self.shak12.stats_modifiers = {damage = 3} 
 self.shak12.AMMO_PICKUP = {3, 10} 
@@ -526,8 +686,15 @@ self.akm.armor_piercing_chance = 1
 self.flint.AMMO_PICKUP = {5, 6}
 self.flint.armor_piercing_chance = 1
 self.flint.can_shoot_through_shield = true 
-self.flint.can_shoot_through_shield = true 
 
+--Gecko 7.62(galil)
+self.galil.armor_piercing_chance = 1 
+
+
+
+    --   ===   --
+    -- Pistols --
+    --   ===   --
 --RUS Tiger(rsh12)
 self.rsh12.stats_modifiers = {damage = 5} 
 self.rsh12.AMMO_PICKUP = {3, 4} 
@@ -571,11 +738,105 @@ self.peacemaker.armor_piercing_chance = 1
 self.mateba.stats_modifiers = {damage = 3} 
 self.mateba.AMMO_PICKUP = {5, 6} 
 self.mateba.can_shoot_through_shield = true 
-self.mateba.armor_piercing_chance = 1 
+self.mateba.armor_piercing_chance = 1
 
---Gecko 7.62(galil)
-self.galil.armor_piercing_chance = 1 
+--Chimano 88(glock_17)
+self.glock_17.AMMO_PICKUP = {10, 15}
 
+--Crosskill(colt_1911)
+self.colt_1911.stats_modifiers = {damage = 2.2}
+self.colt_1911.AMMO_PICKUP = {3.25, 4.5}
+self.colt_1911.armor_piercing_chance = 1 
+
+--Bernetti 9(b92fs)
+self.b92fs.AMMO_PICKUP = {10 - 11}
+
+--White Streak(pl14)
+self.pl14.stats_modifiers = {damage = 2.3}
+self.pl14.AMMO_PICKUP = {2.5, 3}
+self.pl14.armor_piercing_chance = 1 
+
+--Parabellum(breech)
+self.breech.AMMO_PICKUP = {7, 20}
+
+--Crosskill Guard(shrew)
+self.shrew.AMMO_PICKUP = {12, 18}
+
+--STRYK 18c(glock_18c)
+self.glock_18c.AMMO_PICKUP = {15, 25}
+
+--Deagle(deagle)
+self.deagle.stats_modifiers = {damage = 3.5}
+self.deagle.AMMO_PICKUP = {2, 2.5}
+self.deagle.armor_piercing_chance = 1
+
+--Signature .40(p226)
+self.p226.stats_modifier = {damage = 2}
+self.p226.AMMO_PICKUP = {4, 5}
+self.p226.armor_piercing_chance = 1
+
+--Crosskill Chunky Compact(m1911)
+self.m1911.AMMO_PICKUP = {6.5, 8}
+self.m1911.armor_piercing_chance = 1
+
+--Baby Deagle(sparrow)
+self.sparrow.stats_modifiers = {damage = 2.3}
+self.sparrow.AMMO_PICKUP = {2.5, 3}
+self.sparrow.armor_piercing_chance = 1 
+self.sparrow.can_shoot_through_wall = true 
+
+--Broomstick(c96)
+self.c96.AMMO_PICKUP = {7, 10}
+self.c96.can_shoot_through_shield = true
+
+--Contractor(packrat)
+self.packrat.stats_modifiers = {damage = 2.5}
+self.packrat.AMMO_PICKUP = {3, 4}
+self.packrat.armor_piercing_chance = 1
+
+--LEO(hs2000)
+self.hs2000.stats_modifiers = {damage = 3.3}
+self.hs2000.AMMO_PICKUP = {3, 5}
+self.hs2000.armor_piercing_chance = 1
+self.hs2000.can_shoot_through_wall = true 
+
+--Bernetti Auto(beer)
+self.beer.AMMO_PICKUP = (15, 25)
+
+--Czech 92(czech)
+self.czech.AMMO_PICKUP = {12.5, 17.5}
+
+--Igor Automatik(stech)
+self.stech.AMMO_PICKUP = {10, 14}
+
+--HOLT 9mm(holt)
+self.holt.AMMO_PICKUP - {12, 15}
+
+--Interceptor .45(usp)
+self.usp.stats_modifiers = {damage = 4}
+self.usp.AMMO_PICKUP = {4, 5}
+self.usp.armor_piercing_chance = 1
+
+--Chimano Custom(g22c)
+self.g22c.stats_modifiers = {damage = 2.5}
+self.g22c.AMMO_PICKUP = {3.5, 4.5}
+self.g22c.armor_piercing_chance = 1
+
+--5/7 AP(lemming)
+self.lemming.AMMO_PICKUP = {1.5, 4}
+
+--Gecko M2(maxim9)
+self.maxim9.stats_modifiers = {damage = 3}
+self.maxim9.AMMO_PICKUP = {8, 10}
+self.maxim9.armor_piercing_chance = 1
+
+--Kang Arms Model 54(type54_underbarrel)
+self.type54_underbarrel.AMMO_PICKUP = {10, 15}
+
+
+    --   ===    --
+    -- Shotguns --
+    --   ===    --
 --Mosconi Tacital(m590)
 self.m590.armor_piercing_chance = 1
 self.m590.AMMO_PICKUP = {1.5, 2.5}
@@ -680,11 +941,6 @@ self.judge.stats_modifiers = {damage = 2}
 self.r870.armor_piercing_chance = 1
 self.r870.AMMO_PICKUP = {1, 2}
 self.r870.stats_modifiers = {damage = 3}
-
---Deagle(deagle)
-self.deagle.armor_piercing_chance = 1
-self.deagle.AMMO_PICKUP = {1.5, 2.5}
-self.deagle.stats_modifiers = {damage = 3}
 
 --Akimbo Deagle(x_deagle)
 self.x_deagle.armor_piercing_chance = 1

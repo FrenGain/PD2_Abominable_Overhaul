@@ -339,6 +339,24 @@ self.parts.wpn_fps_pis_usp_co_comp_2.stats = {
 	suppression = -11, 
 	alert_size = -7
 }
+self.parts.wwpn_fps_pis_c96_b_long.stats = {
+	damage = 250, 
+	spread = 4, 
+	recoil = 4, 
+	concealment = 0, 
+	suppression = 0, 
+	alert_size = 0,
+	total_ammo_mod = -5
+}
+self.parts.wpn_fps_pis_c96_b_long.custom_stats = {
+	ammo_pickup_max_mul = 1, 
+	ammo_pickup_min_mul = 2,
+	fire_rate_multiplier = 0.75,
+	can_shoot_through_enemy = true, 
+	can_shoot_through_wall = false, 
+	can_shoot_through_shield = true, 
+	armor_piercing_add = 0, 
+}
 
 
 	--Barrels
