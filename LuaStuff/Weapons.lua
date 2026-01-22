@@ -14,9 +14,10 @@ self.saw_secondary.stats.damage = 25
 self.saw_secondary.stats.suppression = 1 
 
 
-    --  ===   ===  ===  --
-    -- Rifles/SMGs/LMGs --
-    --  ===   ===  ===  --
+
+
+    -- Rifles/SMGs/LMGs
+
 --shAK12(KS12)
 self.shak12.CLIP_AMMO_MAX = 15
 self.shak12.AMMO_MAX = 60
@@ -194,9 +195,10 @@ self.vhs.stats.recoil = 14
 
 
 
-    --   ===   --
-    -- Pistols --
-    --   ===   --
+
+
+    -- Pistols
+
 --RUS Tiger(rsh12)
 self.rsh12.AMMO_MAX = 25
 self.rsh12.stats.damage = 80
@@ -355,9 +357,10 @@ self.type54_underbarrel.stats.recoil = 20
 
 
 
-    --   ===    --
-    -- Shotguns --
-    --   ===    --
+
+
+    -- Shotguns 
+
 --Reinfeld 880(r870)
 self.r870.stats.damage = 111
 self.r870.stats.spread = 10
@@ -464,9 +467,10 @@ self.ultima.stats.spread = 7
 self.ultima.stats.recoil = 11
 
 
-    --    ===     --
-    -- Akimbos ig --
-    --    ===     --
+
+
+    -- Akimbos ig
+
 --Akimbo Deagle(x_deagle)
 self.x_deagle.stats.damage = 67
 self.x_deagle.stats.spread = 12
@@ -572,9 +576,10 @@ self.saw_secondary.armor_piercing_chance = 1
 
 
 
-    --  ===   ===  ===  --
-    -- Rifles/SMGs/LMGs --
-    --  ===   ===  ===  --
+
+
+    -- Rifles/SMGs/LMGs
+
 --shAK12
 self.shak12.stats_modifiers = {damage = 3} 
 self.shak12.AMMO_PICKUP = {3, 10} 
@@ -692,9 +697,10 @@ self.galil.armor_piercing_chance = 1
 
 
 
-    --   ===   --
-    -- Pistols --
-    --   ===   --
+
+
+    -- Pistols
+
 --RUS Tiger(rsh12)
 self.rsh12.stats_modifiers = {damage = 5} 
 self.rsh12.AMMO_PICKUP = {3, 4} 
@@ -834,9 +840,11 @@ self.maxim9.armor_piercing_chance = 1
 self.type54_underbarrel.AMMO_PICKUP = {10, 15}
 
 
-    --   ===    --
-    -- Shotguns --
-    --   ===    --
+
+
+
+    -- Shotguns 
+
 --Mosconi Tacital(m590)
 self.m590.armor_piercing_chance = 1
 self.m590.AMMO_PICKUP = {1.5, 2.5}
