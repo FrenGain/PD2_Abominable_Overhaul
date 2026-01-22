@@ -336,7 +336,7 @@ self.g22c.stats.spread = 20
 self.g22c.stats.recoil = 11
 
 --5/7 AP(lemming)
-self.lemming.stats.spread 18
+self.lemming.stats.spread = 18
 
 --Gecko M2(maxim9)
 self.maxim9.stats.damage = 33

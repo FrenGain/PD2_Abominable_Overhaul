@@ -1,1 +1,1 @@
-NetworkMatchMakingSTEAM._BUILD_SEARCH_INTEREST_KEY = NetWorkMatchMakingSTEAM._BUILD_SEARCH_INTEREST_KEY .. "FUCKITWEBALL_abominable_overhaul_r1"
+NetworkMatchMakingSTEAM._BUILD_SEARCH_INTEREST_KEY = NetworkMatchMakingSTEAM._BUILD_SEARCH_INTEREST_KEY .. "FUCKITWEBALL_abominable_overhaul_r1"
