@@ -251,7 +251,7 @@ self.pl14.stats.recoil = 6
 
 --Parabellum(breech)
 self.breech.AMMO_MAX = 104
-self.breech.damage = 85
+self.breech.damage = 60
 self.breech.spread = 15
 self.breech.recoil = 15
 self.breech.fire_mode_data.fire_rate = 60 / 550
@@ -274,7 +274,7 @@ self.deagle.stats.spread = 19
 self.deagle.stats.recoil = 11
 
 --Signature .40(p226)
-self.p226.stats.damage = 70
+self.p226.stats.damage = 100
 self.p226.stats.spread = 18
 self.p226.stats.recoil = 10
 
@@ -331,7 +331,7 @@ self.usp.stats.spread = 18
 self.usp.stats.recoil = 13
 
 --Chimano Custom(g22c)
-self.g22c.stats.damage = 67
+self.g22c.stats.damage = 60
 self.g22c.stats.spread = 20
 self.g22c.stats.recoil = 11
 
@@ -755,7 +755,7 @@ self.deagle.AMMO_PICKUP = {2, 2.5}
 self.deagle.armor_piercing_chance = 1
 
 --Signature .40(p226)
-self.p226.stats_modifier = {damage = 3}
+self.p226.stats_modifier = {damage = 2.5}
 self.p226.AMMO_PICKUP = {4, 5}
 self.p226.armor_piercing_chance = 1
 
