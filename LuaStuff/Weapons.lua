@@ -785,7 +785,7 @@ self.hs2000.armor_piercing_chance = 1
 self.hs2000.can_shoot_through_wall = true 
 
 --Bernetti Auto(beer)
-self.beer.AMMO_PICKUP = (15, 25)
+self.beer.AMMO_PICKUP = {15, 25}
 
 --Czech 92(czech)
 self.czech.AMMO_PICKUP = {12.5, 17.5}
