@@ -339,7 +339,7 @@ self.parts.wpn_fps_pis_usp_co_comp_2.stats = {
 	suppression = -11, 
 	alert_size = -7
 }
-self.parts.wwpn_fps_pis_c96_b_long.stats = {
+self.parts.wpn_fps_pis_c96_b_long.stats = {
 	damage = 250, 
 	spread = 4, 
 	recoil = 4, 
