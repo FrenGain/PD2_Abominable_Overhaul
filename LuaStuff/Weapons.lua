@@ -245,13 +245,13 @@ self.b92fs.stats.spread = 14
 self.b92fs.stats.recoil = 15
 
 --White Streak(pl14)
-self.pl14.stats.damage = 66
+self.pl14.stats.damage = 70
 self.pl14.stats.spread = 17
 self.pl14.stats.recoil = 6
 
 --Parabellum(breech)
 self.breech.AMMO_MAX = 104
-self.breech.damage = 60
+self.breech.damage = 1
 self.breech.spread = 15
 self.breech.recoil = 15
 self.breech.fire_mode_data.fire_rate = 60 / 550
@@ -274,7 +274,7 @@ self.deagle.stats.spread = 19
 self.deagle.stats.recoil = 11
 
 --Signature .40(p226)
-self.p226.stats.damage = 100
+self.p226.stats.damage = 120
 self.p226.stats.spread = 18
 self.p226.stats.recoil = 10
 
@@ -284,7 +284,7 @@ self.m1911.stats.spread = 17
 self.m1911.stats.recoil = 13
 
 --Baby Deagle(sparrow)
-self.sparrow.stats.damage = 66
+self.sparrow.stats.damage = 70
 self.sparrow.stats.spread = 17
 self.sparrow.stats.recoil = 6
 
@@ -326,12 +326,12 @@ self.holt.stats.spread = 21
 self.holt.stats.recoil = 18
 
 --Interceptor .45(usp)
-self.usp.stats.damage = 65 
+self.usp.stats.damage = 60
 self.usp.stats.spread = 18
 self.usp.stats.recoil = 13
 
 --Chimano Custom(g22c)
-self.g22c.stats.damage = 60
+self.g22c.stats.damage = 57
 self.g22c.stats.spread = 20
 self.g22c.stats.recoil = 11
 
@@ -741,6 +741,7 @@ self.pl14.AMMO_PICKUP = {2.5, 3}
 self.pl14.armor_piercing_chance = 1 
 
 --Parabellum(breech)
+self.breech.stats_modifiers = {damage = 1}
 self.breech.AMMO_PICKUP = {7, 20}
 
 --Crosskill Guard(shrew)
