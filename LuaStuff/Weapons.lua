@@ -331,7 +331,7 @@ self.usp.stats.spread = 18
 self.usp.stats.recoil = 13
 
 --Chimano Custom(g22c)
-self.g22c.stats.damage = 71
+self.g22c.stats.damage = 67
 self.g22c.stats.spread = 20
 self.g22c.stats.recoil = 11
 
