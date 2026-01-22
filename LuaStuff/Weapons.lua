@@ -794,7 +794,7 @@ self.czech.AMMO_PICKUP = {12.5, 17.5}
 self.stech.AMMO_PICKUP = {10, 14}
 
 --HOLT 9mm(holt)
-self.holt.AMMO_PICKUP - {12, 15}
+self.holt.AMMO_PICKUP = {12, 15}
 
 --Interceptor .45(usp)
 self.usp.stats_modifiers = {damage = 4}
