@@ -274,7 +274,7 @@ self.deagle.stats.spread = 19
 self.deagle.stats.recoil = 11
 
 --Signature .40(p226)
-self.p226.stats.damage = 75
+self.p226.stats.damage = 70
 self.p226.stats.spread = 18
 self.p226.stats.recoil = 10
 
