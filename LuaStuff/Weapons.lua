@@ -230,7 +230,7 @@ self.peacemaker.fire_mode_data.fire_rate = 60 / 600
 self.mateba.stats.damage = 60
 self.mateba.stats.spread = 17 
 self.mateba.stats.recoil = 13
-self.nateba.fire_mode_data.fire_rate = 60 / 600
+self.mateba.fire_mode_data.fire_rate = 60 / 600
 
 --Chimano 88(glock_17)
 self.glock_17.stats.damage = 84
