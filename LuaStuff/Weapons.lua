@@ -101,7 +101,7 @@ self.p90.fire_mode_data.fire_rate = 60 / 1009
 --hekcok-twuneewun(Brenner-21)
 self.hk21.CLIP_AMMO_MAX = 100
 self.hk21.AMMO_MAX = 225
-self.hk21.stats.damage = 142 
+self.hk21.stats.damage = 56
 self.hk21.stats.spread = 15 
 self.hk21.stats.recoil = 9
 self.hk21.stats.reload = 13
@@ -109,15 +109,15 @@ self.hk21.stats.reload = 13
 --par(KSP58)
 self.par.CLIP_AMMO_MAX = 125
 self.par.AMMO_MAX = 275
-self.par.stats.damage = 124 
-self.par.stats.spread = 13 
+self.par.stats.damage = 70
+self.par.stats.spread = 18
 self.par.stats.recoil = 14
 self.par.stats.reload = 14
 
 --RPK
 self.rpk.CLIP_AMMO_MAX = 55
 self.rpk.AMMO_MAX = 155
-self.rpk.stats.damage = 155 
+self.rpk.stats.damage = 55 
 self.rpk.stats.spread = 10 
 self.rpk.stats.recoil = 18
 self.rpk.fire_mode_data.fire_rate = 60 / 555
@@ -125,9 +125,9 @@ self.rpk.fire_mode_data.fire_rate = 60 / 555
 --M249(KSP)
 self.m249.CLIP_AMMO_MAX = 150
 self.m249.AMMO_MAX = 450
-self.m249.stats.damage = 76 
+self.m249.stats.damage = 46
 self.m249.stats.spread = 14 
-self.m249.stats.recoil = 18
+self.m249.stats.recoil = 19
 self.m249.stats.concealment = 12
 self.m249.fire_mode_data.fire_rate = 60 / 1059
 self.m249.stats.reload = 15
@@ -135,17 +135,17 @@ self.m249.stats.reload = 15
 --Buzzsaw
 self.mg42.CLIP_AMMO_MAX = 150
 self.mg42.AMMO_MAX = 250
-self.mg42.stats.damage = 111
+self.mg42.stats.damage = 74
 self.mg42.stats.spread = 10 
-self.mg42.stats.recoil = 14
+self.mg42.stats.recoil = 17
 
 --M60
-self.m60.CLIP_AMMO_MAX = 125
+self.m60.CLIP_AMMO_MAX = 75
 self.m60.AMMO_MAX = 375
 self.m60.stats.damage = 151
-self.m60.stats.spread = 15 
-self.m60.stats.recoil = 15
-self.m60.fire_mode_data.fire_rate = 60 / 400
+self.m60.stats.spread = 17 
+self.m60.stats.recoil = 17
+self.m60.fire_mode_data.fire_rate = 60 / 500
 
 --Hailstorm
 self.hailstorm.CLIP_AMMO_MAX = 180
@@ -200,34 +200,37 @@ self.rsh12.stats.recoil = 5
 
 --Frenchman M87(model3)
 self.model3.AMMO_MAX = 36
-self.model3.stats.damage = 50
-self.model3.stats.spread = 16 
-self.model3.stats.recoil = 7
+self.model3.stats.damage = 60
+self.model3.stats.spread = 19
+self.model3.stats.recoil = 5
+self.model3.fire_mode_data.fire_rate = 60 / 800
 
 --Kahn(korth)
-self.korth.stats.damage = 52
+self.korth.stats.damage = 64
 self.korth.stats.spread = 15 
 self.korth.stats.recoil = 10
 
 --Bronco(new_raging_bull)
-self.new_raging_bull.stats.damage = 48
+self.new_raging_bull.stats.damage = 70
 self.new_raging_bull.stats.spread = 15 
 self.new_raging_bull.stats.recoil = 11
 
 --Castigo(chinchilla)
-self.chinchilla.stats.damage = 53
+self.chinchilla.stats.damage = 68
 self.chinchilla.stats.spread = 18 
 self.chinchilla.stats.recoil = 9
 
 --Peacemaker(peacemaker)
-self.peacemaker.stats.damage = 45
+self.peacemaker.stats.damage = 60
 self.peacemaker.stats.spread = 13 
 self.peacemaker.stats.recoil = 5
+self.peacemaker.fire_mode_data.fire_rate = 60 / 600
 
 --Matever(mateba)
-self.mateba.stats.damage = 50
+self.mateba.stats.damage = 60
 self.mateba.stats.spread = 17 
 self.mateba.stats.recoil = 13
+self.nateba.fire_mode_data.fire_rate = 60 / 600
 
 --Chimano 88(glock_17)
 self.glock_17.stats.damage = 84
@@ -564,82 +567,87 @@ self.saw_secondary.armor_piercing_chance = 1
 
 --shAK12
 self.shak12.stats_modifiers = {damage = 3} 
-self.shak12.AMMO_PICKUP = {3, 10} 
+self.shak12.AMMO_PICKUP = {7, 10} 
 self.shak12.can_shoot_through_wall = true 
 self.shak12.can_shoot_through_shield = true 
 self.shak12.armor_piercing_chance = 1 
 
 --SCAR-H
-self.scar.AMMO_PICKUP = {3, 8}
+self.scar.AMMO_PICKUP = {7, 10}
 self.scar.armor_piercing_chance = 1
 self.scar.can_shoot_through_shield = true 
 
 --HK417
-self.contraband.AMMO_PICKUP = {4.5, 6}
+self.contraband.AMMO_PICKUP = {7, 9}
 self.contraband.armor_piercing_chance = 1
 self.contraband.can_shoot_through_shield = true 
 
 self.contraband_m203.AMMO_PICKUP = {0.3, 0.6}
 
 --M14
-self.new_m14.AMMO_PICKUP = {3.5, 5}
+self.new_m14.AMMO_PICKUP = {5, 8}
 self.new_m14.armor_piercing_chance = 1
 self.new_m14.can_shoot_through_shield = true 
 
 --FAL
-self.fal.AMMO_PICKUP = {2, 7}
+self.fal.AMMO_PICKUP = {6, 11}
 self.fal.armor_piercing_chance = 1
 self.fal.can_shoot_through_shield = true 
 
 --G3A3
-self.g3.AMMO_PICKUP = {5, 7}
+self.g3.AMMO_PICKUP = {6, 11}
 self.g3.armor_piercing_chance = 1
 self.g3.can_shoot_through_shield = true 
 
 --CR805
-self.hajk.AMMO_PICKUP = {6, 11}
+self.hajk.AMMO_PICKUP = {8, 11}
 
 --Krinkov
 self.akmsu.AMMO_PICKUP = {7, 9}
 self.akmsu.armor_piercing_chance = 1
 
 --THE PP :)
-self.vityaz.AMMO_PICKUP = {2, 10}
+self.vityaz.AMMO_PICKUP = {15, 20}
 
 --De Yakkal
-self.schakal.AMMO_PICKUP = {1.5, 7}
+self.schakal.AMMO_PICKUP = {7, 10}
 
 --Jacket's Piece
-self.cobray.AMMO_PICKUP = {2.8, 8.8}
+self.cobray.AMMO_PICKUP = {11, 18}
 
 --Kobuss
-self.p90.AMMO_PICKUP = {3.25, 11.5}
+self.p90.AMMO_PICKUP = {6, 16}
 self.p90.armor_piercing_chance = 1
 
---hekcok-twuneewun
+--hekcok-twuneewun(HK21)
+self.hk21.stats.modifier = {damage = 3}
 self.hk21.AMMO_PICKUP = {7, 8}
 self.hk21.armor_piercing_chance = 1
 self.hk21.can_shoot_through_shield = true 
 
---par
-self.par.AMMO_PICKUP = {3, 8}
+--par(KSP 58)
+self.par.stats_modifier = {damage = 2}
+self.par.AMMO_PICKUP = {7, 11}
 self.par.armor_piercing_chance = 1
 self.par.can_shoot_through_shield = true 
 
 --RPK
-self.rpk.AMMO_PICKUP = {1.15, 11.5}
+self.rpk.stats_modifier = {damage = 3.15}
+self.rpk.AMMO_PICKUP = {11.5, 15.15}
 self.rpk.armor_piercing_chance = 1
 self.rpk.can_shoot_through_shield = true 
 
---M249
-self.m249.AMMO_PICKUP = {10, 11}
+--M249(KSP)
+self.m249.AMMO_PICKUP = {15, 25}
 
---Buzzsaw
+--Buzzsaw(mg42)
+self.mg42.stats_modifier = {damage = 2}
 self.mg42.AMMO_PICKUP = {7, 11}
 self.mg42.armor_piercing_chance = 1
 self.mg42.can_shoot_through_shield = true 
 
 --M60
+self.m60.stats_modifier = {damage = 3}
 self.m60.AMMO_PICKUP = {8, 11}
 self.m60.armor_piercing_chance = 1
 self.m60.can_shoot_through_shield = true 
@@ -695,7 +703,7 @@ self.model3.can_shoot_through_shield = true
 self.model3.armor_piercing_chance = 1 
 
 --Kahn(korth)
-self.korth.stats_modifiers = {damage = 3} 
+self.korth.stats_modifiers = {damage = 4} 
 self.korth.AMMO_PICKUP = {5, 6} 
 self.korth.can_shoot_through_shield = true 
 self.korth.armor_piercing_chance = 1 
@@ -713,13 +721,13 @@ self.chinchilla.can_shoot_through_shield = true
 self.chinchilla.armor_piercing_chance = 1 
 
 --Peacemaker(peacemaker)
-self.peacemaker.stats_modifiers = {damage = 3.5} 
-self.peacemaker.AMMO_PICKUP = {3.5, 6} 
+self.peacemaker.stats_modifiers = {damage = 4} 
+self.peacemaker.AMMO_PICKUP = {5, 6} 
 self.peacemaker.can_shoot_through_shield = true 
 self.peacemaker.armor_piercing_chance = 1 
 
 --Matever(mateba)
-self.mateba.stats_modifiers = {damage = 3} 
+self.mateba.stats_modifiers = {damage = 4} 
 self.mateba.AMMO_PICKUP = {5, 6} 
 self.mateba.can_shoot_through_shield = true 
 self.mateba.armor_piercing_chance = 1
@@ -991,34 +999,34 @@ self.mateba.kick.crouching = {2.11, 2.11, 0, 0}
 self.mateba.kick.steelsight = {1.83, 1.83, 0, 0} 
 
 --Krinkov
-self.akmsu.kick.standing = {2.35, 2.35, -0.25, 0.25} 
-self.akmsu.kick.crouching = {2.15, 2.15, -0.20, 0.20} 
-self.akmsu.kick.steelsight = {1.75, 1.75, -0.10, 0.10} 
+self.akmsu.kick.standing = {2.00, 2.00, -0.13, 0.13} 
+self.akmsu.kick.crouching = {2.00, 2.00, -0.13, 0.13} 
+self.akmsu.kick.steelsight = {1.60, 1.60, -0.09, 0.09} 
 
 --THE PP :)(AKGen 21)
-self.vityaz.kick.standing = {2.24, 2.24, -0.38, 0.38} 
-self.vityaz.kick.crouching = {1.91, 1.91, -0.29, 0.29} 
-self.vityaz.kick.steelsight = {1.68, 1.68, -0.21, 0.21} 
+self.vityaz.kick.standing = {1.02, 1.02, -0.13, 0.13} 
+self.vityaz.kick.crouching = {1.02, 1.2, -0.13, 0.13} 
+self.vityaz.kick.steelsight = {0.80, 0.80, -0.07, 0.07} 
 
 --Kobuss(P90/Kobus 90)
-self.p90.kick.standing = {1.47, 1.47, -0.33, 0.33} 
-self.p90.kick.crouching = {1.23, 1.23, -0.27, 0.27} 
-self.p90.kick.steelsight = {1.09, 1.09, -0.19, 0.19} 
+self.p90.kick.standing = {1.23, 1.23, -0.12, 0.12} 
+self.p90.kick.crouching = {1.23, 1.23, -0.12, 0.12} 
+self.p90.kick.steelsight = {1.09, 1.09, -0.07, 0.07} 
 
 --M60
-self.m60.kick.standing = {2.87, 2.87, -0.56, 0.56} 
-self.m60.kick.crouching = {2.63, 2.63, -0.47, 0.47} 
-self.m60.kick.steelsight = {1.94, 1.94, -0.32, 0.32} 
+self.m60.kick.standing = {2.13, 2.13, -0.00, 0.00} 
+self.m60.kick.crouching = {2.13, 2.13, -0.00, 0.00} 
+self.m60.kick.steelsight = {1.85, 1.85, -0.00, 0.00} 
 
 --CAR-4
-self.new_m4.kick.standing = {0.94, 0.94, -0.34, 0.34} 
-self.new_m4.kick.crouching = {0.64, 0.64, -0.24, 0.24} 
-self.new_m4.kick.steelsight = {0.44, 0.44, -0.14, 0.14} 
+self.new_m4.kick.standing = {0.74, 0.74, -0.00, 0.00} 
+self.new_m4.kick.crouching = {0.74, 0.74, -0.00, 0.00} 
+self.new_m4.kick.steelsight = {0.44, 0.44, -0.00, 0.00} 
 
 --AMR-16
-self.m16.kick.standing = {1.20, 1.20, -0.50, 0.50} 
-self.m16.kick.crouching = {1.00, 1.00, -0.45, 0.45} 
-self.m16.kick.steelsight = {0.80, 0.80, -0.35, 0.35} 
+self.m16.kick.standing = {1.05, 1.05, -0.00, 0.00} 
+self.m16.kick.crouching = {1.05, 1.05, -0.00, 0.00} 
+self.m16.kick.steelsight = {0.60, 0.60, -0.00, 0.00} 
 
 --crouching and steelsight values can be changed independently of the standing kick values. by default, they are set to be the same.
 
